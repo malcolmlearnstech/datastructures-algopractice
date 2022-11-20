@@ -24,3 +24,17 @@ Input: [0, -1, -5]
 Output: "even"
 
 */
+
+function oddOrEven(array) {
+  let sum = 0;
+
+  for (const value of array) {
+    sum += value;
+  }
+
+  if (sum % 2 === 0) {
+    return 'even';
+  } else {
+    return 'odd';
+  }
+}
