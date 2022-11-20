@@ -1,14 +1,11 @@
 # Odd or Even
 
 <div align = "center">
-<h3> 
-Given a list of integers, determine whether the sum of its elements is odd or even.
-
-Give your answer as a string matching "odd" or "even".
-
-If the input array is empty consider it as: [0] (array with a zero).
-
-</h3>
+  
+<h3> Given a list of integers, determine whether the sum of its elements is odd or even. </h3>
+<h3>Your answer should return a string stating either "odd" or "even". </h3>
+<h3>If the input array is empty consider it as: [0] (array with a zero).</h3>
+  
   </div>
 
 <h3>Example 1</h3>
