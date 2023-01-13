@@ -13,15 +13,14 @@
 <!--
 <span class="CodeEditor-promptParameter">array</span> = [6,2]
 -->
-function evenOrOdd ( [0] ) // returns "even"
+[7] should return 7, because it occurs 1 time (which is odd).
 </pre>
 
 <h3>Example 2</h3>
 <pre>
-function evenOrOdd ( [0, 1, 4] ) // returns "odd"
-</pre>
+[1,1,2] should return 2, because it occurs 1 time (which is odd).</pre>
 
 <h3>Example 3</h3>
 <pre>
-function evenOrOdd ( [0, -1, -5] ) // returns "even"
+[1,2,2,3,3,3,4,3,3,3,2,2,1] should return 4, because it appears 1 time (which is odd).
 </pre>
