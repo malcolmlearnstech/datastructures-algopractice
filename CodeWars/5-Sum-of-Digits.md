@@ -14,7 +14,10 @@ continue reducing in this way until a single-digit number is produced. The input
 </pre>
 
 <p>
-<em>When the number 16 is separated, it splits its digits into 1 and 6. When those are added, we receive 7. Our function will return 7.</em>
+<em>When the number 16 is separated, it splits its digits into 1 and 6. When those are added, we receive 7. 
+  
+  <strong>Our function will return 7.</strong>
+    </em>
 </p>
 
 <h3>Example 2:</h3>
