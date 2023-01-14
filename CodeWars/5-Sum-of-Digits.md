@@ -13,8 +13,8 @@ continue reducing in this way until a single-digit number is produced. The input
 16  -->  1 + 6 = 7. 
 </pre>
 
-<pre>When the number 16 is separated, it splits its digits into 1 and 6. When those are added, we receive 7. Our function will return 7.
-</pre>
+<p>When the number 16 is separated, it splits its digits into 1 and 6. When those are added, we receive 7. Our function will return 7.
+</p>
 
 <h3>Example 2</h3>
 <pre>
