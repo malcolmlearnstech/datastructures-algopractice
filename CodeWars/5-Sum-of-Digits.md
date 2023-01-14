@@ -28,7 +28,7 @@ continue reducing in this way until a single-digit number is produced. The input
 <p>
 <em>When the number 942 is separated, it splits its digits into 9, 4, and 2. When those are added, we receive 15. 
   
-  Since 15 still has two digits, we split again in 1 & 5. After adding 1 & 5, we receive 6. 
+  Since 15 still has two digits, we split again in 1 & 5. (After adding 1 & 5, we receive 6) 
   
   <strong>The function will return 6.</strong></em>
 </p>
@@ -41,7 +41,7 @@ continue reducing in this way until a single-digit number is produced. The input
 <p>
 <em>When the number 132189 is separated, it splits its digits in 1, 3, 2, 1, 8 and 9. When those are added, we receive 24. 
   
-  Since 24 still has two digits, we split again into 2 & 4. After adding 2 & 4, we receive 6. 
+  Since 24 still has two digits, we split again into 2 & 4. (After adding 2 & 4, we receive 6) 
   
   <strong>The function will return 6.</strong></em>
 </p>
