@@ -4,7 +4,7 @@
   
 <h3> Given a string of words, you need to find the highest scoring word. </h3>
 <h3>Each letter of a word scores points according to its position in the alphabet: a = 1, b = 2, c = 3 etc.
-<em>For example, the score of abad is 8 (1 + 2 + 1 + 4).</em>
+<em>For example, the score for the string 'abad' is 8 (1 + 2 + 1 + 4).</em>
 </h3>
 <h3>You need to return the highest scoring word as a string. If two words score the same, return the word that appears earliest in the original string. All letters will be lowercase and all inputs will be valid.</h3>
 
