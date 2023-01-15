@@ -28,9 +28,9 @@ Input: 'b aa'
 </pre>
 
 <p>
-<em>The string 'bb' has a score of 4 (b = 2, b = 2) 
+<em>Although both words have a score of 2 ('b' = 2 and 'aa' = 1 + 1), 'b' comes first in the string so this will return first. 
   
-  <strong>The function will return 'bb'</strong>
+  <strong>The function will return 'b'</strong>
   </em>
 </p>
 
