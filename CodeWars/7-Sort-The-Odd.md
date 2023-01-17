@@ -38,7 +38,7 @@ Input: [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
 
 <p>
 <em>Given the rules from the prompt, the numbers 8, 6, 4, 2, and 0 will remain in their positions.
-The positions of 9, 7, 5, 3, and 1 will have to swapped in placed in ascending order due to the prompt.
+The positions of 9, 7, 5, 3, and 1 will have to be swapped and placed in ascending order due to the prompt.
 
 <strong>The function will return [1, 8, 3, 6, 5, 4, 7, 2, 9, 0]</strong></em>
 
