@@ -9,7 +9,7 @@
 
 <h3>Example 1:</h3>
 <pre>
-Input: 'abc' 
+Input: <em>'abc' </em>
 </pre>
 
 <p>
@@ -21,14 +21,13 @@ Input: 'abc'
 
 <h3>Example 2:</h3>
 <pre>
-Input: [5, 8, 6, 3, 4] 
+Input: <em>'abcdef' </em>
 </pre>
 
 <p>
-<em>Given the rules from the prompt, the numbers 8, 6, and 4 will remain in the same place. 
-The positions of 5 and 3 will swap due to the ascending order rule of the prompt. 
+<em>Because the string has an even number of characters, every pair of characters will be filled in with no underscores.
   
-  <strong>The function will return [3, 8, 6, 5, 4]</strong>
+  The function will return an array with the following:    <strong>['ab', 'cd', 'ef']</strong>
   </em>
 </p>
 
