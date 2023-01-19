@@ -2,8 +2,8 @@
 
 <div align = "center">
   
-<h3> Complete the solution so that it splits the string into pairs of two characters. 
-  If the string contains an odd number of characters then it should replace the missing second character of the final pair with an underscore ('_'). </h3>
+  <h3> Complete the solution so that it splits the string into pairs of two characters. </h3>
+  <h3>If the string contains an odd number of characters then it should replace the missing second character of the final pair with an underscore ('_'). </h3>
 
 </div>
 
