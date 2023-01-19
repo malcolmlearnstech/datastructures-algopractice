@@ -15,7 +15,7 @@ Input: 'abc'
 <p>
 <em>Because the string has an odd number of characters, the second pair will have an underscore added to it.
   
- The function will return an array with the following:<strong>['ab', 'c_']</strong>
+ The function will return an array with the following:    <strong>['ab', 'c_']</strong>
     </em>
 </p>
 
