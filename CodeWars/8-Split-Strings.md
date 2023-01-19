@@ -9,13 +9,13 @@
 
 <h3>Example 1:</h3>
 <pre>
-Input: [7, 1] 
+Input: 'abc' 
 </pre>
 
 <p>
-<em>As both elements in the array are odd, they are simply rearranged in ascending order.
+<em>Because the string has an odd number of characters, the second pair will have an underscore added to it.
   
-  <strong>The function will return [1, 7]</strong>
+ The function will return an array with the following:<strong>['ab', 'c_']</strong>
     </em>
 </p>
 
@@ -32,6 +32,8 @@ The positions of 5 and 3 will swap due to the ascending order rule of the prompt
   </em>
 </p>
 
+
+<!--
 <h3>Example 3:</h3>
 <pre>
 Input: [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
@@ -44,3 +46,4 @@ The positions of 9, 7, 5, 3, and 1 will have to be swapped and placed in ascendi
 <strong>The function will return [1, 8, 3, 6, 5, 4, 7, 2, 9, 0]</strong></em>
 
 </p>
+-->
