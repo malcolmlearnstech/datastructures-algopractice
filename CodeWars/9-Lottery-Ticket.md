@@ -6,7 +6,7 @@
   
   Example ticket:
   
-    <strong>[ [ 'ABC', 65 ], [ 'HGR', 74 ], [ 'BYHT', 74 ] ]</strong>
+    <strong> [ [ 'ABC', 65 ], [ 'HGR', 74 ], [ 'BYHT', 74 ] ] </strong>
   
   To do this, you must first count the 'mini-wins' on your ticket. Each subarray has both a string and a number within it. If the character code of any of the characters in the string matches the number, you get a mini win. Note you can only have one mini win per sub array.</h3>
 
