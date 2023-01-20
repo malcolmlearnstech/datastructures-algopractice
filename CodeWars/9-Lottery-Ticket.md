@@ -1,9 +1,7 @@
 # Lottery Ticket
 
 <div align = "center">
-  <h3>You are given an input of:
-    
-    (ticket, win)
+  <h3>You are given an input of the following: <em>(ticket, win)</em>
   </h3>
   
   <h3> Your lottery ticket (<em>ticket</em>), represented by an array of 2-value arrays, you must find out if you've won the jackpot.  </h3>
