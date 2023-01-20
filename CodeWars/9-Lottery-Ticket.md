@@ -4,8 +4,7 @@
   
   <h3> Given a lottery ticket (<em>ticket</em>), represented by an array of 2-value arrays, you must find out if you've won the jackpot.  
   
-    <div align = "left>Example ticket: </div>
-    
+    <div align = "left> Example ticket: </div>
   
      [ [ 'ABC', 65 ], [ 'HGR', 74 ], [ 'BYHT', 74 ] ] 
   
