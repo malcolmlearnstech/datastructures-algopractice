@@ -27,7 +27,7 @@ Input: ([['ABC', 65], ['HGR', 74], ['BYHT', 74]], 2)
 </pre>
 
 <p>
-<em>As both elements in the array are odd, they are simply rearranged in ascending order.
+<em>As one of the characters in the first string of the first mini ticket matches the character code, but is the only match, there aren't enough mini wins to match the overall count needed on the input lottery ticket. This ticket will not win.
   
   <strong>The function will return 'Loser!'</strong>
     </em>
@@ -35,14 +35,13 @@ Input: ([['ABC', 65], ['HGR', 74], ['BYHT', 74]], 2)
 
 <h3>Example 2:</h3>
 <pre>
-Input: [5, 8, 6, 3, 4] 
+Input: ([['ABC', 65], ['HGR', 74], ['BYHT', 74]], 1) 
 </pre>
 
 <p>
-<em>Given the rules from the prompt, the numbers 8, 6, and 4 will remain in the same place. 
-The positions of 5 and 3 will swap due to the ascending order rule of the prompt. 
+<em>As one of the characters in the first string of the first mini ticket matches the character code of the mini ticket, it will be a mini win. As the one mini ticket win will match the overall count needed on the input lottery ticket, this lottery ticket will win. 
   
-  <strong>The function will return [3, 8, 6, 5, 4]</strong>
+  <strong>The function will return 'Winner!'</strong>
   </em>
 </p>
 
