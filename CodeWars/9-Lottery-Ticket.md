@@ -23,13 +23,13 @@
 
 <h3>Example 1:</h3>
 <pre>
-Input: [7, 1] 
+Input: ([['ABC', 65], ['HGR', 74], ['BYHT', 74]], 2) 
 </pre>
 
 <p>
 <em>As both elements in the array are odd, they are simply rearranged in ascending order.
   
-  <strong>The function will return [1, 7]</strong>
+  <strong>The function will return 'Loser!'</strong>
     </em>
 </p>
 
@@ -47,15 +47,4 @@ The positions of 5 and 3 will swap due to the ascending order rule of the prompt
 </p>
 
 
-<h3>Example 3:</h3>
-<pre>
-Input: [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
-</pre>
 
-<p>
-<em>Given the rules from the prompt, the numbers 8, 6, 4, 2, and 0 will remain in their positions.
-The positions of 9, 7, 5, 3, and 1 will have to be swapped and placed in ascending order due to the prompt.
-
-<strong>The function will return [1, 8, 3, 6, 5, 4, 7, 2, 9, 0]</strong></em>
-
-</p>
