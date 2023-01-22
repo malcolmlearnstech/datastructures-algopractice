@@ -31,6 +31,16 @@ Input: <em>'GACCGCCGCC' </em>
 </pre>
 
 <p>
-<em>The function will the following:    <strong>'GACCGCCGCC'</strong>
+<em>The function will return the following:    <strong>'GACCGCCGCC'</strong>
+  </em>
+</p>
+
+<h3>Example 2:</h3>
+<pre>
+Input: <em>'TTTT' </em>
+</pre>
+
+<p>
+<em>The function will return the following:    <strong>'UUUU'</strong>
   </em>
 </p>
