@@ -17,24 +17,20 @@
 
 <h3>Example 1:</h3>
 <pre>
-Input: <em>'abc' </em>
+Input: <em>'GCAT' </em>
 </pre>
 
 <p>
-<em>Because the string has an odd number of characters, the second pair will have an underscore added to it.
-  
- The function will return an array with the following:    <strong>['ab', 'c_']</strong>
+<em>The function will return the following:    <strong>'GCAU'</strong>
     </em>
 </p>
 
 <h3>Example 2:</h3>
 <pre>
-Input: <em>'abcdef' </em>
+Input: <em>'GACCGCCGCC' </em>
 </pre>
 
 <p>
-<em>Because the string has an even number of characters, every pair of characters will be filled in with no underscores.
-  
-  The function will return an array with the following:    <strong>['ab', 'cd', 'ef']</strong>
+<em>The function will the following:    <strong>'GACCGCCGCC'</strong>
   </em>
 </p>
