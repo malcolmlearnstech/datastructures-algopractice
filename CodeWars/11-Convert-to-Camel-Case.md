@@ -2,7 +2,11 @@
 
 <div align = "center">
   
-<h3> You will be given an array of numbers. You have to sort the odd numbers in ascending order while leaving the even numbers at their original positions. </h3>
+<h3> Complete the method/function so that it converts dash/underscore delimited words into camel casing. </h3>
+  <h3> The first word within the output should be capitalized only if the original word was capitalized (known as Upper Camel Case, also often referred to as Pascal case). </h3>
+  <h3> Complete the method/function so that it converts dash/underscore delimited words into camel casing. </h3>
+
+
 
 </div>
 
