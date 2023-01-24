@@ -24,16 +24,16 @@ Input: "the-stealth-warrior"
 
 <h3>Example 2:</h3>
 <pre>
-Input: [5, 8, 6, 3, 4] 
+Input: "The_Stealth_Warrior" 
 </pre>
 
 <p>
-<em>Given the rules from the prompt, the numbers 8, 6, and 4 will remain in the same place. 
-The positions of 5 and 3 will swap due to the ascending order rule of the prompt. 
+<em>The underscores will be removed and because the first word is capitalized, all three words will be capitalized. 
   
-  <strong>The function will return [3, 8, 6, 5, 4]</strong>
+  The function will return <strong>"TheStealthWarrior"</strong>
   </em>
 </p>
+
 
 
 <h3>Example 3:</h3>
