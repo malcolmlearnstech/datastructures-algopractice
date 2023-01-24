@@ -4,7 +4,7 @@
   
 <h3> Complete the method/function so that it converts dash/underscore delimited words into camel casing. </h3>
   <h3> The first word within the output should be capitalized only if the original word was capitalized (known as Upper Camel Case, also often referred to as Pascal case). </h3>
-  <h3> Complete the method/function so that it converts dash/underscore delimited words into camel casing. </h3>
+  <h3> The next words should be always capitalized. </h3>
 
 
 
