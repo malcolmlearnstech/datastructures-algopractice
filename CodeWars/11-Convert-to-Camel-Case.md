@@ -12,13 +12,13 @@
 
 <h3>Example 1:</h3>
 <pre>
-Input: [7, 1] 
+Input: "the-stealth-warrior" 
 </pre>
 
 <p>
-<em>As both elements in the array are odd, they are simply rearranged in ascending order.
+<em>The dashes will be removed and only the first letters of "stealth" and "warrior" will be capitalized.
   
-  <strong>The function will return [1, 7]</strong>
+  The function will return <strong>"theStealthWarrior"</strong>
     </em>
 </p>
 
