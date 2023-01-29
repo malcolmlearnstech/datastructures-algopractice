@@ -1,4 +1,7 @@
-# DNA to RNA Conversion
+<div align = "center">
+  
+  # DNA to RNA Conversion
+  </div>
 
 <div align = "center">
   
