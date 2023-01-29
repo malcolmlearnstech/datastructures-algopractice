@@ -1,4 +1,7 @@
-# Lottery Ticket
+<div align = "center">
+  
+  # Lottery Ticket
+</div>
 
 <div align = "center">
   <h3>You are given an input of the following: <em>(ticket, win)</em>
