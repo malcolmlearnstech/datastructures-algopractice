@@ -1,11 +1,13 @@
+<div align = "center">
+  
 # Get the Middle Character
+</div>
 
 <div align = "center">
   
 <h3> You are going to be given a word. Your job is to return the middle character of the word. </h3>
   <h3> If the word's length is odd, return the middle character. </h3>
   <h3> If the word's length is even, return the middle 2 characters. </h3>
-
 
 
 </div>
