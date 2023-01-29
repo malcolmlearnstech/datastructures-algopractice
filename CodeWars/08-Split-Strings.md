@@ -1,4 +1,7 @@
+<div align = "center">
+
 # Split Strings
+  </div>
 
 <div align = "center">
   
