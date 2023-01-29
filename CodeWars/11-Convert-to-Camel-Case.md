@@ -1,4 +1,7 @@
-# Convert to Camel Case
+<div align = "center">
+  
+  # Convert to Camel Case
+  </div>
 
 <div align = "center">
   
