@@ -1,4 +1,7 @@
+<div align = "center">
+
 # Sum of Digits
+  </div>
 
 <div align = "center">
   
