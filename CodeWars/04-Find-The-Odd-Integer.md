@@ -1,4 +1,7 @@
+<div align = "center">
+
 # Find the Odd Integer
+  </div>
 
 <div align = "center">
   
