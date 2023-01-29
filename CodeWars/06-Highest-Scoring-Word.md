@@ -1,4 +1,7 @@
+<div align = "center">
+
 # Highest Scoring Word
+  </div>
 
 <div align = "center">
   
