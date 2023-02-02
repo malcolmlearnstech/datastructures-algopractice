@@ -8,6 +8,8 @@
 <h3> Your task is to sort a given string. Each word in the string will contain a single number. This number is the position the word should have in the result. </h3>
   <h3> Note: Numbers can be from 1 to 9. So 1 will be the first word (not 0). </h3>
   <h3> If the input string is empty, return an empty string. The words in the input String will only contain valid consecutive numbers. </h3>
+  
+  </div>
 
 <h3>Example 1:</h3>
 <pre>
