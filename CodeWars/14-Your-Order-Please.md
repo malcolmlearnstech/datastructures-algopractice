@@ -17,7 +17,7 @@ Input: <em>"is2 Thi1s T4est 3a"</em>
 </pre>
 
 <p>
-<em>The function will return an array with the following:    <strong>"Thi1s is2 3a T4est"</strong>
+<em>The function will return the following string:    <strong>"Thi1s is2 3a T4est"</strong>
     </em>
 </p>
 
@@ -27,6 +27,6 @@ Input: <em>"4of Fo1r pe6ople g3ood th5e the2"</em>
 </pre>
 
 <p>
-<em>The function will return an array with the following:    <strong>"Fo1r the2 g3ood 4of th5e pe6ople"</strong>
+<em>The function will return the following string:    <strong>"Fo1r the2 g3ood 4of th5e pe6ople"</strong>
   </em>
 </p>
