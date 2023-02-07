@@ -16,22 +16,11 @@
 
 <h3>Example 1:</h3>
 <pre>
-Input: <em>'world'</em>
+Input: <em>[4,6,2,1,9,63,-134,566]</em>
 </pre>
 
 <p>
  
-<em>The function will return <strong>'dlrow'</strong>
-    </em>
-</p>
-
-<h3>Example 2:</h3>
-<pre>
-Input: <em>'word'</em>
-</pre>
-
-<p>
- 
-<em>The function will return <strong>'drow'</strong>
+<em>The function will return a max of <strong>566</strong> and min of <strong>-134</strong>
     </em>
 </p>
