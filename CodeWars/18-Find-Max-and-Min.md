@@ -37,3 +37,15 @@ Input: <em>[-52, 56, 30, 29, -54, 0, -110]</em>
 </em>
 
 </p>
+
+<h3>Example 3:</h3>
+<pre>
+Input: <em>[5]</em>
+</pre>
+
+<p>
+
+<em>The function will return a Maximum number of <strong>5</strong> and Minimum number of <strong>5</strong>
+</em>
+
+</p>
