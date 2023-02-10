@@ -18,7 +18,7 @@
 
 <p>
 
-<em>The function should return the following string<strong>"20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 15 3 11"</strong>
+<em>The function should return the following string: &nbsp;&nbsp;<strong>"20 &nbsp;8 &nbsp;5 &nbsp;19 &nbsp;21 &nbsp;14 &nbsp;19 &nbsp;5 &nbsp;20 &nbsp;19 &nbsp;5 &nbsp;20 &nbsp;19 &nbsp;1 &nbsp;20 &nbsp;20 &nbsp;23 &nbsp;5 &nbsp;12 &nbsp;22 &nbsp;5 &nbsp;15 &nbsp;3 &nbsp;12 &nbsp;15 &nbsp;3 &nbsp;11"</strong>
 </em>
 
 </p>
