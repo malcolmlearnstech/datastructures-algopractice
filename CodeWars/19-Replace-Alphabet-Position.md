@@ -13,7 +13,7 @@
 
 <h3>Example</h3>
 <pre>
-Function Invoke: <em>alphabetPosition("The sunset sets at twelve o' clock.")</em>
+<em>alphabetPosition("The sunset sets at twelve o' clock.")</em>
 </pre>
 
 <p>
