@@ -17,7 +17,7 @@ Input: <em>"din"</em>
 
 <p>
 
-<em>The function will return a string of <strong>"((("</strong>
+<em>The function will return a string of <strong>"(&nbsp;(&nbsp;("</strong>
 </em>
 
 </p>
@@ -29,7 +29,7 @@ Input: <em>"recede"</em>
 
 <p>
 
-<em>The function will return a string of <strong>"()()()"</strong>
+<em>The function will return a string of <strong>"(&nbsp;)&nbsp;(&nbsp;)&nbsp;(&nbsp;)"</strong>
 </em>
 
 </p>
@@ -41,6 +41,6 @@ Input: <em>"Success"</em>
 
 <p>
 
-<em>The function will return a string of <strong>")())())"</strong> </em>
+<em>The function will return a string of <strong>")&nbsp;(&nbsp;)&nbsp;)&nbsp;(&nbsp;)&nbsp;)"</strong> </em>
 
 </p>
