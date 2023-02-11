@@ -6,46 +6,41 @@
 
 <div align = "center">
   
-<h3> Your task is to make two functions (max and min, or maximum and minimum, etc., depending on the language) that receive a list of integers as input, and return the largest and lowest number in that list, respectively.
- </h3>
+<h3>The goal of this exercise is to convert a string to a new string where each character in the new string is "(" if that character appears only once in the original string, or ")" if that character appears more than once in the original string. Ignore capitalization when determining if a character is a duplicate.</h3>
 
- <h3>Note:</h3>
- <h3>You may consider that there will not be any empty arrays/vectors.</h3>
-  
   </div>
 
 <h3>Example 1:</h3>
 <pre>
-Input: <em>[4,6,2,1,9,63,-134,566]</em>
+Input: <em>"din"</em>
 </pre>
 
 <p>
 
-<em>The function will return a Maximum number of <strong>566</strong> and Minimum number of <strong>-134</strong>
+<em>The function will return a string of <strong>"((("</strong>
 </em>
 
 </p>
 
 <h3>Example 2:</h3>
 <pre>
-Input: <em>[-52, 56, 30, 29, -54, 0, -110]</em>
+Input: <em>"recede"</em>
 </pre>
 
 <p>
 
-<em>The function will return a Maximum number of <strong>56</strong> and Minimum number of <strong>-110</strong>
+<em>The function will return a string of <strong>"()()()"</strong>
 </em>
 
 </p>
 
 <h3>Example 3:</h3>
 <pre>
-Input: <em>[5]</em>
+Input: <em>"Success"</em>
 </pre>
 
 <p>
 
-<em>The function will return a Maximum number of <strong>5</strong> and Minimum number of <strong>5</strong>
-</em>
+<em>The function will return a string of <strong>")())())"</strong> </em>
 
 </p>
