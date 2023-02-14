@@ -6,7 +6,9 @@
 
 <div align = "center">
   
-<h3>The goal of this exercise is to convert a string to a new string where each character in the new string is "(" if that character appears only once in the original string, or ")" if that character appears more than once in the original string. Ignore capitalization when determining if a character is a duplicate.</h3>
+<h3>Alex just got a new hula hoop, he loves it but feels discouraged because his little brother is better than him.</h3>
+
+<h3>Write a program where Alex can input (n) how many times the hoop goes round and it will return him an encouraging message :)</h3>
 
   </div>
 
