@@ -12,14 +12,12 @@
 
   </div>
 
-<h3>Example 1:</h3>
 <pre>
-Input: <em>"din"</em>
+<em>If Alex gets 10 or more hoops, return the string "Great, now move on to tricks".
+</em>
 </pre>
 
-<p>
-
-<em>The function will return a string of <strong>"(&nbsp;(&nbsp;("</strong>
+<pre>
+<em>If he doesn't get 10 hoops, return the string "Keep at it until you get it".
 </em>
-
-</p>
+</pre>
