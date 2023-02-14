@@ -1,6 +1,6 @@
 <div align = "center">
 
-# Duplicate Encoder
+# Keep Up the Hoop
 
 </div>
 
