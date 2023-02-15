@@ -1,6 +1,6 @@
 <div align = "center">
 
-# Duplicate Encoder
+# Square(n) Sum
 
 </div>
 
