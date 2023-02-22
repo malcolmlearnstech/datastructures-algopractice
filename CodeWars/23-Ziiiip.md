@@ -18,9 +18,15 @@ zipObject([['fred', 30], ['barney', 40]])
 
 <h3>If only keys are given, then set the values to undefined.</h3>
 
-<pre>zipObject(['fred', 'barney'])
-{ fred: undefined, barney: undefined }</pre>
+<pre><em>zipObject(['fred', 'barney'])</em> will return the following:
+<strong>{ fred: undefined, barney: undefined }</strong>
+</pre>
 
 <h3>If neither keys nor values are specified, then return {}</h3>
 
+<h3>Like so:</h3>
+
+<pre>zipObject() will return the following:
+<strong>{}</strong>
+</pre>
 </div>
