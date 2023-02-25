@@ -1,1 +1,1 @@
-function bmi() {}
+function bmi(weight, height) {}
