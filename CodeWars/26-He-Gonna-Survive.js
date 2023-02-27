@@ -1,3 +1,1 @@
-function hero() {
-  bullets, dragons;
-}
+function hero(bullets, dragons) {}
