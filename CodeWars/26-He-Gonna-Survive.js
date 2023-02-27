@@ -1,1 +1,3 @@
-function hero(bullets, dragons) {}
+function hero(bullets, dragons) {
+  return dragons * 2 <= bullets ? true : false;
+}
