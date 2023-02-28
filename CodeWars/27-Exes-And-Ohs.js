@@ -1,1 +1,1 @@
-function XO() {}
+function XO(str) {}
