@@ -19,3 +19,7 @@
 <pre>function XO ("xooxx")</pre>
 
 <p>The function will return <em>false</em></p>
+
+<pre>function XO ("ooxXm")</pre>
+
+<p>The function will return <em>true</em></p>
