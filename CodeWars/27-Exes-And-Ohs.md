@@ -26,4 +26,4 @@
 
 <pre>function XO ("zpzpzpp")</pre>
 
-<p>The function will return <strong><em>true</em><strong> // &nbsp;&nbsp;&nbsp;&nbsp;<em>when no 'x' and 'o' is present should return true</em></p>
+<p>The function will return <strong><em>true</em></strong>&nbsp;&nbsp; // &nbsp;&nbsp;<em>when no 'x' and 'o' is present should return true</em></p>
