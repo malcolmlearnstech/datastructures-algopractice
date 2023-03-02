@@ -23,3 +23,7 @@
 <pre>function XO ("ooxXm")</pre>
 
 <p>The function will return <em>true</em></p>
+
+<pre>function XO ("zpzpzpp")</pre>
+
+<p>The function will return <strong><em>true</em><strong> // &nbsp;&nbsp;&nbsp;&nbsp;<em>when no 'x' and 'o' is present should return true</em></p>
