@@ -11,3 +11,7 @@
 <h3>Examples input/output:</h3>
 
 </div>
+
+<pre>function XO ("ooxx")</pre>
+
+<p>The function will return <em>true</em></p>
