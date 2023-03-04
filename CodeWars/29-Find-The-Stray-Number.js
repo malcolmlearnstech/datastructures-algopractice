@@ -1,0 +1,1 @@
+function stray(numbers) {}
