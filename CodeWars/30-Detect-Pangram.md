@@ -14,14 +14,10 @@
 
 <h3>Example 1:</h3>
 
-<pre> let <em>string</em>=&nbsp;&nbsp;"The quick brown fox jumps over the lazy dog." 
-
-function isPangram(<em>string</em>)</pre>
-<p>The function will return <em>true</em></p>
+<pre>function isPangram (<em>"The quick brown fox jumps over the lazy dog."</em>)</pre>
+<p>The function will return <strong><em>true</em></strong> </p>
 
 <h3>Example 2:</h3>
 
-<pre>let <em>string</em>=&nbsp;&nbsp;"This is not a pangram."
-
-function isPangram(<em>string</em>)</pre>
-<p>The function will return <em>false</em></p>
+<pre>function isPangram (<em>"This is not a pangram."</em>)</pre>
+<p>The function will return <strong><em>false</em></strong> </p>
