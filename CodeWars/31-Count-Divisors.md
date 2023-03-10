@@ -16,7 +16,7 @@
 
 <h3>Example 1:</h3>
 <pre> <em>getDivisorsCnt(4)</em> </pre>
-<p>As 4 is divisible by the numbers <em>1, 2, and 4<em> the function will return&nbsp;&nbsp; <strong><em>3</em></strong> </p>
+<p>As 4 is divisible by the numbers <em>1, 2, and 4</em> the function will return&nbsp;&nbsp; <strong><em>3</em></strong> </p>
 
 <h3>Example 2:</h3>
 <pre> <em>getDivisorsCnt(12)</em> </pre>
