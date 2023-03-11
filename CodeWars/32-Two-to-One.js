@@ -17,3 +17,19 @@ function longest(s1, s2) {
 
   return returnString.sort().join('');
 }
+
+//REFACTORED VERSION OF ABOVE CODE
+
+function longest(s1, s2) {
+  //instead of looking at the elements of both strings separately, we put the strings together then pull the characters afterward
+  let combo = s1.concat(s2).split('');
+  let uniqueLetters = [];
+
+  for (const element of combo) {
+    if (!uniqueLetters.includes(element)) {
+      uniqueLetters.push(element);
+    }
+  }
+  //we do a final sort at the end to ensure characters are in proper order
+  return uniqueLetters.sort().join('');
+}
