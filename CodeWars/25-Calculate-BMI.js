@@ -12,7 +12,10 @@ function bmi(weight, height) {
 
 //REFACTORED SOLUTION
 
-//Setup is still very similar. In this instance, we just use switch statement. The switch will hold "true" and will check for case will evaluate to the same value
+/*
+Setup is still very similar. In this instance, we just use switch statement. 
+The switch will hold "true" and will check for case will evaluate to the same value
+*/
 
 function bmi(weight, height) {
   let index = weight / (height * height);
