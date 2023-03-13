@@ -20,14 +20,17 @@
 
 </div>
 
-<div align = "center">
+<div align = "left">
 
+<h3>Example 1:</h3>
 <pre>makeNegative(1)</pre>
 <p>The function will return &nbsp;&nbsp; <strong><em>-1</em></strong> </p>
 
+<h3>Example 2:</h3>
 <pre>makeNegative(-5)</pre>
 <p>The function will return &nbsp;&nbsp; <strong><em>5</em></strong> </p>
 
+<h3>Example 3:</h3>
 <pre>makeNegative(0)</pre>
 <p>The function will return &nbsp;&nbsp; <strong><em>0</em></strong> </p>
 
