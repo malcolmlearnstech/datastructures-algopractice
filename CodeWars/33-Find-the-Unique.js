@@ -7,3 +7,9 @@ function findUniq(arr) {
   });
   return unique;
 }
+
+function findUniq(arr) {
+  return Number(
+    arr.filter((element) => arr.indexOf(element) === arr.lastIndexOf(element))
+  );
+}
