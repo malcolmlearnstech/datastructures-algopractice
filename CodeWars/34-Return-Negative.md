@@ -13,10 +13,8 @@
 <div align = "center">
 
 <h3>Notes:</h3>
-<ul>
-    <li> <em>The number can be negative already, in which case no change is required.</em> </li>
-    <li> <em>Zero (0) is not checked for any specific sign. Negative zeros make no mathematical sense.</em> </li>
-</ul>
+<p> <em>The number can be negative already, in which case no change is required.</em> </p>
+<p> <em>Zero (0) is not checked for any specific sign. Negative zeros make no mathematical sense.</em> </p>
 
 </div>
 
