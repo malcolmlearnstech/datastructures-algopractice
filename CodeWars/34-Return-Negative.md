@@ -19,3 +19,16 @@
 </ul>
 
 </div>
+
+<div align = "center">
+
+<pre>makeNegative(1)</pre>
+<p>The function will return &nbsp;&nbsp; <strong><em>-1</em></strong> </p>
+
+<pre>makeNegative(-5)</pre>
+<p>The function will return &nbsp;&nbsp; <strong><em>5</em></strong> </p>
+
+<pre>makeNegative(0)</pre>
+<p>The function will return &nbsp;&nbsp; <strong><em>0</em></strong> </p>
+
+</div>
