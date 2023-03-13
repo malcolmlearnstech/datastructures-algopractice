@@ -10,7 +10,7 @@
 
 </div>
 
-<div align = "left">
+<div align = "center">
 
 <h3>Notes:</h3>
 <ul>
