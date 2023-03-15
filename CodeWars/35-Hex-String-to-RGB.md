@@ -15,3 +15,11 @@
 <h3>•&nbsp;&nbsp;Returns a Map [String, int] with the structure <em>{r: 255, g: 153, b: 51}</em> where <em>r</em>, <em>g</em>, and <em>b</em> range from 0 through 255</h3>
 
 </div>
+
+<div align = "center">
+
+<h3>Example:</h3>
+
+<pre>hexStringToRGB("#FF9933") will return the following <em>{r: 255, g: 153, b: 51}</em> </pre>
+
+</div>
