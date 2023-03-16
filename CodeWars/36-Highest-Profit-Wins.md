@@ -14,18 +14,18 @@
 
 <h3>Example 1:</h3>
 
-<pre></pre>
+<pre>function minMax([1, 2, 3, 4, 5])</pre>
 
-<p></p>
+<p>The function will return the following: &nbsp;<strong><em>[1, 5]</em></strong></p>
 
 <h3>Example 2:</h3>
 
-<pre></pre>
+<pre>function minMax([2334454, 5])</pre>
 
-<p></p>
+<p>The function will return the following: &nbsp;<strong><em>[5, 2334454]</em></strong></p>
 
 <h3>Example 3:</h3>
 
-<pre></pre>
+<pre>function minMax([1])</pre>
 
-<p></p>
+<p>The function will return the following: &nbsp;<strong><em>[1, 1]</em></strong></p>
