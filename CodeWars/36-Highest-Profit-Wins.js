@@ -6,3 +6,10 @@ function minMax(arr) {
 
   return profitMargin;
 }
+
+/*  REFACTORED CODE:
+
+*/
+function minMax(arr) {
+  return [Math.min(...arr), Math.max(...arr)];
+}
