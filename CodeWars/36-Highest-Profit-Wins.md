@@ -11,3 +11,21 @@
 <h3>Write a function that returns both the minimum and maximum number of the given list/array.</h3>
 
 </div>
+
+<h3>Example 1:</h3>
+
+<pre></pre>
+
+<p></p>
+
+<h3>Example 2:</h3>
+
+<pre></pre>
+
+<p></p>
+
+<h3>Example 3:</h3>
+
+<pre></pre>
+
+<p></p>
