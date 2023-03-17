@@ -18,16 +18,16 @@
 
 <pre>findNextSquare(121)</pre>
 
-<p>The function will return the following: &nbsp;<strong><em>144</em></strong></p>
+<p>The function will return: &nbsp;<strong><em>144</em></strong></p>
 
 <h3>Example 2:</h3>
 
 <pre>findNextSquare(625)</pre>
 
-<p>The function will return the following: &nbsp;<strong><em>676</em></strong></p>
+<p>The function will return: &nbsp;<strong><em>676</em></strong></p>
 
 <h3>Example 3:</h3>
 
 <pre>findNextSquare(114)</pre>
 
-<p>The function will return the following: &nbsp;<em><strong>-1</strong>&nbsp;(since 114 is not a perfect square)</em></p>
+<p>The function will return: &nbsp;<em><strong>-1</strong>&nbsp;(since 114 is not a perfect square)</em></p>
