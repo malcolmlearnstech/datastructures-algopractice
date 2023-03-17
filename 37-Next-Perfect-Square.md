@@ -13,3 +13,21 @@
 <h3>If the parameter is itself not a perfect square then -1 should be returned. You may assume the parameter is non-negative.</h3>
 
 </div>
+
+<h3>Example 1:</h3>
+
+<pre>findNextSquare(121)</pre>
+
+<p>The function will return the following: &nbsp;<strong><em>144</em></strong></p>
+
+<h3>Example 2:</h3>
+
+<pre>findNextSquare(625)</pre>
+
+<p>The function will return the following: &nbsp;<strong><em>676</em></strong></p>
+
+<h3>Example 3:</h3>
+
+<pre>findNextSquare(114)</pre>
+
+<p>The function will return the following: &nbsp;<strong><em>-1</em></strong>(since 114 is not a perfect square)</p>
