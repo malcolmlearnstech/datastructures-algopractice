@@ -30,4 +30,4 @@
 
 <pre>findNextSquare(114)</pre>
 
-<p>The function will return the following: &nbsp;<strong><em>-1</em></strong>(since 114 is not a perfect square)</p>
+<p>The function will return the following: &nbsp;<strong><em>-1</em></strong>&nbsp;(since 114 is not a perfect square)</p>
