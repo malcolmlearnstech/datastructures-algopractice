@@ -8,3 +8,7 @@ function filterList(l) {
   });
   return newList;
 }
+
+function filterList(l) {
+  return l.filter((element) => typeof element === 'number');
+}
