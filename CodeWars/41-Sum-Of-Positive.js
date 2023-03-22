@@ -7,3 +7,11 @@ function positiveSum(arr) {
   });
   return sum;
 }
+
+//REFACTORED SOLUTION CODE
+function positiveSum(arr) {
+  arr = arr
+    .filter((element) => Math.sign(element) === 1)
+    .reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+  return arr;
+}
