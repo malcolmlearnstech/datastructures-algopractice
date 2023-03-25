@@ -14,18 +14,18 @@
 
 <h3>Example 1:</h3>
 
-<pre>count(ab)</pre>
+<pre>count('ab')</pre>
 
 <p>The function will return: &nbsp;<strong><em>{'a': 1, 'b': 1}</em></strong></p>
 
 <h3>Example 2:</h3>
 
-<pre>count(aba)</pre>
+<pre>count('aba')</pre>
 
 <p>The function will return: &nbsp;<strong><em>{'a': 2, 'b': 1}</em></strong></p>
 
 <h3>Example 3:</h3>
 
-<pre>count(ABC)</pre>
+<pre>count('ABC')</pre>
 
 <p>The function will return: &nbsp;<strong><em>{'A': 1, 'B': 1, 'C': 1}</em></strong></p>
