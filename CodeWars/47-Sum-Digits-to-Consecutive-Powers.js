@@ -21,7 +21,9 @@ function sumDigPow(a, b) {
 
 /*REFACTORED CODE SOLUTION: 
 
-Rather than using a for-loop to iterate through our number's digits, we choose to map instead, basically keeping all other elements of the function build the same 
+Rather than using a for-loop to iterate through our number's digits, 
+we choose to map instead, basically keeping all other elements of the 
+function build the same.
 
 */
 function sumDigPow(a, b) {
