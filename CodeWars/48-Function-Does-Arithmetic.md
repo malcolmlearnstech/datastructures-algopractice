@@ -13,3 +13,21 @@
 <h3>The four operators are "add", "subtract", "divide", "multiply".</h3>
 
 </div>
+
+<h3>Example 1:</h3>
+
+<pre>arithmetic(5, 2, 'add')</pre>
+
+<p>The function will return: &nbsp;<strong><em>7</em></strong></p>
+
+<h3>Example 2:</h3>
+
+<pre>arithmetic(5, 2, 'subtract')</pre>
+
+<p>The function will return: &nbsp;<strong><em>3</em></strong></p>
+
+<h3>Example 3:</h3>
+
+<pre>arithmetic(5, 2, 'multiply')</pre>
+
+<p>The function will return: &nbsp;<strong><em>10</em></strong></p>
