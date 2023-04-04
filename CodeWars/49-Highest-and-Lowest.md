@@ -16,20 +16,20 @@
 
 </div>
 
-<h3>Example 1:</h3>
+<span align = "center"> <h3>Example 1:</h3> </span>
 
 <pre>highAndLow("1 2 3 4 5")</pre>
 
-<p>The function will return: &nbsp;<strong><em>"5 1"</em></strong></p>
+<p>The function will return: &nbsp;<strong><em>"5 &nbsp;1"</em></strong></p>
 
-<h3>Example 2:</h3>
+<span align = "center"> <h3>Example 2:</h3> </span>
 
 <pre>highAndLow("1 2 -3 4 5")</pre>
 
-<p>The function will return: &nbsp;<strong><em>"5 -3"</em></strong></p>
+<p>The function will return: &nbsp;<strong><em>"5 &nbsp;-3"</em></strong></p>
 
-<h3>Example 3:</h3>
+<span align = "center"> <h3>Example 3:</h3> </span>
 
 <pre>highAndLow(1 9 3 4 -5)</pre>
 
-<p>The function will return: &nbsp;<strong><em>"9 -5"</em></strong></p>
+<p>The function will return: &nbsp;<strong><em>"9 &nbsp;-5"</em></strong></p>
