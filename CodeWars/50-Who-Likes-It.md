@@ -10,6 +10,6 @@
 
 <h3>Implement the function which takes an array containing the names of people that like an item. It must return the display text as shown below.</h3>
 
-<em><p style = "font-size:160%">Note: For 4 or more names, the number in "and 2 others" simply increases.</p></em>
+<em><p style= "font-size:35px;">Note: For 4 or more names, the number in "and 2 others" simply increases.</p></em>
 
 </div>
