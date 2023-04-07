@@ -40,6 +40,6 @@
 
 <p>The function will return: &nbsp;<strong><em>"Alex, Jacob and 2 others like this"</em></strong></p>
 
-<em><p>Note: For 4 or more names, the number in "and 2 others" simply increases.</p></em>
+<em><p>Note: For 4 or more names, the number in <strong>"and 2 others"</strong> simply increases.</p></em>
 
 </div>
