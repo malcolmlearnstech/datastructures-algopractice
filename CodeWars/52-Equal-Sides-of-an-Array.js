@@ -1,0 +1,1 @@
+function findEvenIndex(arr) {}
