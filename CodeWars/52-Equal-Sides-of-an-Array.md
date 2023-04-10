@@ -17,7 +17,7 @@
 <br>
 <h3>Let's look at another one:</h3>
 
-<em><p>You are given the array</em> </strong>[1,&nbsp;100,&nbsp;50,&nbsp;-51,&nbsp;1,&nbsp;1]</strong>:</p>
+<em><p>You are given the array</em> <strong>[1,&nbsp;100,&nbsp;50,&nbsp;-51,&nbsp;1,&nbsp;1]</strong>:</p>
 <em><p>Your function will return the index 1, because at the 1st position of the array, the sum of left side of the index</em> <strong>[1]</strong> <em>and the sum of the right side of the index</em> <strong>[50,&nbsp;-51,&nbsp;1,&nbsp;1]</strong> <em>both equal 1.</em></p>
 
 <br>
