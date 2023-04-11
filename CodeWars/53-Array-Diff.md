@@ -14,7 +14,7 @@
 <pre><em>arrayDiff([1,2],[1])</em> would return the following:&nbsp;<strong><em>[2]</em></strong></pre>
 <br>
 
-<p>If a value is present in <em>b</em>, all of its occurrences must be removed from the other:</p>
+<h3><p>If a value is present in <em>b</em>, all of its occurrences must be removed from the other:</p></h3>
 <br>
 
 <pre><em>arrayDiff([1,2,2,2,3],[2])</em> would return the following:&nbsp;<strong><em>[1,3]</em></strong></pre>
