@@ -18,6 +18,5 @@
 
 <pre>sortNums(null)</pre>
 
-<p>The function will return: &nbsp;<strong><em>[]</em></strong></p>
-
+<p>The function will return: &nbsp;<strong><em>[ ]</em></strong></p>
 </div>
