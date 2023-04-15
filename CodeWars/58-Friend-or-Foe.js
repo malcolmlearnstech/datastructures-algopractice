@@ -1,0 +1,1 @@
+function friend(friends) {}
