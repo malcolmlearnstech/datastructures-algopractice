@@ -8,3 +8,13 @@ function friend(friends) {
   }
   return notFoes;
 }
+
+/*
+REFACTORED SOLUTION:
+Rather than using conditional check, we can employ filter to 
+narrow our array down the array to strings longer than 4 characters.
+*/
+
+function friend(friends) {
+  return friends.filter((element) => element.length === 4);
+}
