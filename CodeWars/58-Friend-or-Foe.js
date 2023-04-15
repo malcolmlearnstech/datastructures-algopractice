@@ -12,7 +12,7 @@ function friend(friends) {
 /*
 REFACTORED SOLUTION:
 Rather than using conditional check, we can employ filter to 
-narrow our array down the array to strings longer than 4 characters.
+narrow our array down the array to strings with 4 characters.
 */
 
 function friend(friends) {
