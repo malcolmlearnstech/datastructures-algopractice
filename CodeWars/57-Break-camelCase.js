@@ -1,4 +1,4 @@
-function solution(string) {
+function breakCamelCase(string) {
   let capitals = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   string = string.split('');
 
@@ -18,7 +18,7 @@ Rather creating a variable to hold all capital letters; in our conditional,
 we can check if the current string element is strictly equal to its capitalized form.
 */
 
-function solution(string) {
+function breakCamelCase(string) {
   string = string.split('');
 
   for (let i = 0; i < string.length; i++) {
