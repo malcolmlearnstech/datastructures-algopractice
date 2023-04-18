@@ -23,3 +23,21 @@ function createPhoneNumber(numbers) {
 
   return `(${area}) ${three}-${four}`;
 }
+
+/*
+REFACTORED SOLUTION:
+
+Instead of taking chunks, we can interate thru the 
+giving number as a string and replace each part of 
+an initialized string of symbols, then return.
+*/
+
+function createPhoneNumber(numbers) {
+  let phoneNumber = '(###) ###-####';
+
+  for (let i = 0; i < numbers.length; i++) {
+    phoneNumber = phoneNumber.replace('#', numbers[i]);
+  }
+
+  return phoneNumber;
+}
