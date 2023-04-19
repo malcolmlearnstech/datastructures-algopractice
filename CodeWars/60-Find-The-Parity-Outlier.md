@@ -12,12 +12,12 @@
 
 <pre>findOutlier([2, 4, 0, 100, 4, 11, 2602, 36])</pre>
 
-<p>The function will return: &nbsp;<em><strong>11</strong>(the only odd number)</em></p>
+<p>The function will return: &nbsp;<em><strong>11</strong>&nbsp;(the only odd number)</em></p>
 
 <h3>Example 2:</h3>
 
 <pre>findOutlier([160, 3, 1719, 19, 11, 13, -21])</pre>
 
-<p>The function will return: &nbsp;<em><strong>160</strong>(the only odd number)</em></p>
+<p>The function will return: &nbsp;<em><strong>160</strong>&nbsp;(the only odd number)</em></p>
 
 </div>
