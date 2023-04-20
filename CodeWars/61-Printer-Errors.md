@@ -15,5 +15,18 @@
 <h3>You have to write a function <em>printer_error</em> which given a string will return the error rate of the printer as a string representing a rational whose numerator is the number of errors and the denominator the length of the control string. Don't reduce this fraction to a simpler expression.</h3>
 <br>
 <h3>The string has a length greater or equal to one and contains only letters from <em>a to z</em>.</h3>
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>printerErrors("aaabbbbhaijjjm")</pre>
+
+<p>The function will return the string: &nbsp;<em><strong>"0/14"</strong></em></p>
+
+<h3>Example 2:</h3>
+
+<pre>printerErrors("aaaxbbbbyyhwawiwjjjwwm")</pre>
+
+<p>The function will return the string: &nbsp;<em><strong>"8/22"</strong></em></p>
 
 </div>
