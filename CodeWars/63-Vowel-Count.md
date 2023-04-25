@@ -12,4 +12,10 @@
 
 <h3>The input string will only consist of lower case letters and/or spaces.</h3>
 
+<h3>Example:</h3>
+
+<pre>getCount("abracadabra")</pre>
+
+<p>The function will return the string: &nbsp;<em><strong>5</strong></em></p>
+
 </div>
