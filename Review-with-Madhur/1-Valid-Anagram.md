@@ -14,7 +14,27 @@
 <h3>if t is not an anagram of s, return <em>false</em>.</h3>
 <br>
 
-<h2>Constraits:</h2> 
-<h3> s & t are lowercase letters only with no punctuation</h3>
+<p><em>Constraits:  s & t are lowercase letters only with no punctuation</em></p>
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>Inputs: s = "anagram", t = "nagaram"</pre>
+
+<p>The function will return the string: &nbsp;<em><strong>true</strong></em></p>
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>Inputs: s = "rat", t = "car"</pre>
+
+<p>The function will return the string: &nbsp;<em><strong>false</strong></em></p>
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>Inputs: s = "elbows", t = "below"</pre>
+
+<p>The function will return the string: &nbsp;<em><strong>false</strong></em></p>
 
 </div>
