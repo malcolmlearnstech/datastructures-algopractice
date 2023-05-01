@@ -27,13 +27,13 @@
 
 <pre>parse("iiisdoso")</pre>
 
-<p>The function will return the string: &nbsp;<em><strong>[ 8, 64 ]</strong></em></p>
+<p>The function will return the array: &nbsp;<em><strong>[ 8, 64 ]</strong></em></p>
 <br>
 
 <h3>Example 2:</h3>
 
 <pre>parse("iiisxxxdoso")</pre>
 
-<p>The function will return the string: &nbsp;<em><strong>[ 8, 64 ]</strong></em></p>
+<p>The function will return the array: &nbsp;<em><strong>[ 8, 64 ]</strong></em></p>
 
 </div>
