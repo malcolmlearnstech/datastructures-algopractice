@@ -1,4 +1,5 @@
 function factorial(n) {
+  //recursive solution
   if (n === 0) {
     return 1;
   }
