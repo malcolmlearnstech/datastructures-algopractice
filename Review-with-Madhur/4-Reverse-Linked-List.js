@@ -21,4 +21,14 @@ function generateList(array) {
 let array = [1, 5, 7, 10];
 let linkedList = generateList(array);
 
-function reverse(current) {}
+function reverse(current) {
+  let prev = null;
+
+  while (current !== null) {
+    let tempNode = current.next;
+    current.next = prev;
+    prev = current;
+    current = tempNode;
+  }
+  return prev;
+}
