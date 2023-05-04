@@ -22,13 +22,16 @@ let array = [1, 5, 7, 10];
 let linkedList = generateList(array);
 
 function reverse(current) {
-  let prev = null;
+  let prev = null; // new data created - O(1)
 
   while (current !== null) {
-    let tempNode = current.next;
+    let tempNode = current.next; // new data created - O(1)
     current.next = prev;
     prev = current;
     current = tempNode;
   }
   return prev;
 }
+
+//Time Complexity : O(N) - time needed to complete function is dependent on length of input
+//Space Complexity : O(1) + O(1) => O(2) => O(1) - two pieces of new data created but the size is constant regardless of the input
