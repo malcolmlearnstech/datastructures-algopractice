@@ -1,11 +1,13 @@
-function camelCase(string) {
-  string = string.split('');
+String.prototype.camelCase = function () {
+  let brokenUp = this.split(' ');
 
-  for (let i = 0; i < string.length; i++) {
-    if (string[i] === string[i].toUpperCase()) {
-      string.splice(i, 0, ' ');
-      i += 2;
+  if (this.length) {
+    for (let i = 0; i < brokenUp.length; i++) {
+      brokenUp[i] = brokenUp[i][0].toUpperCase() + brokenUp[i].slice(1);
     }
+  } else {
+    return '';
   }
-  return string.join('');
-}
+
+  return brokenUp.join('');
+};
