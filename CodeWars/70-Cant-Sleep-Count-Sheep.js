@@ -1,0 +1,1 @@
+var countSheep = function (num) {};
