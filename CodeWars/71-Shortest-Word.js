@@ -15,3 +15,17 @@ function findShort(s) {
   s = s.split(' ').map((element) => (element = element.length));
   return Math.min(...s);
 }
+
+/*
+REFACTORED SOLUTION:
+
+We can add the lengths of each word from input string into the same array. 
+We then filter out the strings themselves, then return Math.min on the array
+*/
+
+function findShort(s) {
+  s = s.split(' ');
+  s.map((element) => s.push(element.length));
+  s = s.filter((element) => typeof element !== 'string');
+  return Math.min(...s);
+}
