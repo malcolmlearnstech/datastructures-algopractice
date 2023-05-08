@@ -1,0 +1,1 @@
+function findShort(s) {}
