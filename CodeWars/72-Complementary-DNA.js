@@ -33,3 +33,19 @@ function DNAStrand(dna) {
     .map((element) => (element = chemicals[element]))
     .join('');
 }
+
+/*
+REFACTORED SOLUTION:
+
+We can define the chemicals object outside of the dnaStrand function, 
+to potentially decrease the Time Complexity, as well as the Space Complexity.
+*/
+
+let chemicals = { A: 'T', C: 'G', T: 'A', G: 'C' };
+
+function DNAStrand(dna) {
+  return dna
+    .split('')
+    .map((element) => (element = chemicals[element]))
+    .join('');
+}
