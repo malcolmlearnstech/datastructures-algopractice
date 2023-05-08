@@ -1,4 +1,4 @@
-function DNAStrand(dna) {
+function dnaStrand(dna) {
   let chemicals = {
     A: 'T',
     C: 'G',
@@ -21,7 +21,7 @@ We can also tell map to reassign as it iterates, as an alternative to
 the conditional used in the initial solution.
 */
 
-function DNAStrand(dna) {
+function dnaStrand(dna) {
   let chemicals = {
     A: 'T',
     C: 'G',
@@ -43,7 +43,7 @@ to potentially decrease the Time Complexity, as well as the Space Complexity.
 
 let chemicals = { A: 'T', C: 'G', T: 'A', G: 'C' };
 
-function DNAStrand(dna) {
+function dnaStrand(dna) {
   return dna
     .split('')
     .map((element) => (element = chemicals[element]))
