@@ -23,3 +23,19 @@ function accum(s) {
   );
   return s.join('-');
 }
+
+/*
+REFACTORED SOLUTION:
+
+To shorten the length of the code, we can append the 
+join method to the mapping over of "s"
+*/
+
+function accum(s) {
+  s = s.toUpperCase().split('');
+  return s
+    .map(
+      (letter, index) => (letter = letter + letter.toLowerCase().repeat(index))
+    )
+    .join('-');
+}
