@@ -28,6 +28,7 @@
 <pre>accum("cwAt")</pre>
 
 <p>The function will return the following string: &nbsp;<em><strong>"C-Ww-Aaa-Tttt"</strong></em></p>
+<br>
 
 <h3>The parameter of accum is a string which includes only letters from a..z and A..Z.</h3>
 
