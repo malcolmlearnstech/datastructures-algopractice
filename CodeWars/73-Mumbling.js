@@ -27,8 +27,8 @@ function accum(s) {
 /*
 REFACTORED SOLUTION:
 
-To shorten the length of the code, we can append the 
-join method to the mapping over of "s"
+To shorten the length of the code, we can append the join method 
+to the mapping over of "s"
 */
 
 function accum(s) {
@@ -37,5 +37,20 @@ function accum(s) {
     .map(
       (letter, index) => (letter = letter + letter.toLowerCase().repeat(index))
     )
+    .join('-');
+}
+
+/*
+REFACTORED SOLUTION: 
+
+We can append .map and .join to the array built from .split, 
+thus shortening our function to one line.
+*/
+
+function accum(s) {
+  return s
+    .toUpperCase()
+    .split('')
+    .map((letter, index) => letter + letter.toLowerCase().repeat(index))
     .join('-');
 }
