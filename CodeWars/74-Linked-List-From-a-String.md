@@ -23,16 +23,25 @@ class Node {
 
 <div align = "center">
 
-<h3>Task</h3>
+<h3>Task:</h3>
 <br>
-<h3>Create a function parse which accepts exactly one argument string / $string / s / strrep ( or similar, depending on the language ) which is a string representation of a linked list. Your function must return the corresponding linked list, constructed from instances of the Node class/struct/type. The string representation of a list has the following format: the value of the node, followed by a whitespace, an arrow and another whitespace (" -> "), followed by the rest of the linked list. Each string representation of a linked list will end in "null" / "NULL" / "nil" / "nullptr" / "null()" depending on the language you are undertaking this Kata in. For example, given the following string representation of a linked list:</h3>
+<h3>Create a function parse which accepts exactly one argument string / $string / s / strrep ( or similar, depending on the language ) which is a string representation of a linked list. Your function must return the corresponding linked list, constructed from instances of the Node class/struct/type. The string representation of a list has the following format: the value of the node, followed by a whitespace, an arrow and another whitespace (<strong>" -> "</strong>), followed by the rest of the linked list. Each string representation of a linked list will end in "null" / "NULL" / "nil" / "nullptr" / "null()" depending on the language you are undertaking this Kata in. For example, given the following string representation of a linked list:</h3>
 <br>
 
 <pre>"1 -> 2 -> 3 -> null"</pre>
 
-<h3>... your function should return:</h3>
+<h3><em>... your function should return:</em></h3>
 <br>
 
 <pre>new Node(1, new Node(2, new Node(3)))</pre>
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>parse("0 -> 1 -> 4 -> 9 -> 16 -> null")</pre>
+
+<p>...your function should return the following:</p>
+
+<pre>new Node(0, new Node(1, new Node(4, new Node(9, new Node(16)))))</pre>
 
 </div>
