@@ -26,5 +26,12 @@ size is the size of the shoe.</pre>
 <pre>pairOfShoes( [ [0, 21], [1, 23], [1, 21], [1, 23] ] )</pre>
 
 <p>The function will return: &nbsp;<em><strong>false</strong></em></p>
+<br>
+
+<h3>Input/Output Rules:</h3>
+
+<h3>Input is a 2D integer array, [shoes]. Each shoe is given in the format [type, size], where type is either 0 or 1 for left and right respectively, and size is a positive integer.</h3>
+
+<h3>Output is a boolean value. "true" if it is possible to pair the shoes, "false" otherwise.</h3>
 
 </div>
