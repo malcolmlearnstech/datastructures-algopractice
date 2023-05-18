@@ -29,4 +29,8 @@
 
 <p>The function will return the following string: &nbsp;<em><strong>"RivArsI Vewols en e Streng"</strong></em></p>
 
+<h3>For simplicity, you can treat the letter y as a consonant, not a vowel.</h3>
+
+<h3>Good luck!</h3>
+
 </div>
