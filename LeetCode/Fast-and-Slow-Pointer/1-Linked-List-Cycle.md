@@ -13,7 +13,7 @@
 
 <h3>Example 1:</h3>
 <br>
-<a href="https://en.wikipedia.org/wiki/The_Milagro_Beanfield_War_(novel)"></a>
+![linkedlist1](https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist.png)
 <pre>Input: Input: head = [3,2,0,-4]
 
 (pos = 1, <em>tail connects to node at index 1</em>)</pre>
