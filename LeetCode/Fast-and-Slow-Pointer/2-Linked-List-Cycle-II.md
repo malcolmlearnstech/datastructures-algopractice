@@ -36,7 +36,7 @@
 <h3>Example 3:</h3>
 <br>
 <img src="https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist_test3.png">
-<pre>Input: Input: head = [1]
+<pre>Input: head = [1]
 
 (pos = -1, <em>because there is only one node, the tail is also the head node.</em>)</pre>
 
