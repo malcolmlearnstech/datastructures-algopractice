@@ -17,3 +17,5 @@ function toWeirdCase(string) {
 
   return string.join(' ');
 }
+
+//Space Complexity: O(n) - space that is held grows linearly in correspondence with the input size
