@@ -10,5 +10,20 @@
 <br>
 
 <h3>The passed in string will only consist of alphabetical characters and spaces(' '). Spaces will only be present if there are multiple words. Words will be separated by a single space(' ').</h3>
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>toWeirdCase("String")</pre>
+
+<p>The function will return the following string: &nbsp;<em><strong>"StRiNg"</strong></em></p>
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>toWeirdCase("Weird string case")</pre>
+
+<p>The function will return the following string: &nbsp;<em><strong>"WeIrD StRiNg CaSe"</strong></em></p>
+<br>
 
 </div>
