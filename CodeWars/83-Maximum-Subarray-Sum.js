@@ -1,0 +1,1 @@
+function maxSequence(arr) {}
