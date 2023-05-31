@@ -27,6 +27,7 @@
 <pre>maxSequence([-2, 1, -3, 4, -1, 2, 1, -5, 4])</pre>
 
 <p>The function will return the following: &nbsp;<em><strong>6</strong></em></p>
+<p><em>(&nbsp;The subarray returning the maximum is: [4, -1, 2, 1]&nbsp;)</em></p>
 <br>
 
 </div>
