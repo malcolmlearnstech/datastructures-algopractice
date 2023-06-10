@@ -31,3 +31,6 @@ function mostWater(heights) {
 
 // Time Complexity: O(N)
 // The function has two pointers that iterate thru the entirety of the input array, time complexity directly
+
+// Space Complexity: O(1) [O(1) + O(1) + O(1) + O(1) = O(4) which simplifies to O(1)]
+// Every variable within our is only holding a number, so every is holding constant space
