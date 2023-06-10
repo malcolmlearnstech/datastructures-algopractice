@@ -11,4 +11,20 @@ APPROACH:
 
 */
 
-function mostWater(heights) {}
+function mostWater(heights) {
+  let left = 0;
+  let right = heights.length - 1;
+  let maxArea = 0;
+
+  while (left < right) {
+    let currentArea = Math.min(heights[left], heights[right]) * (right - left);
+    maxArea = Math.max(maxArea, currentArea);
+
+    if (left > right) {
+      right--;
+    } else {
+      left++;
+    }
+  }
+  return maxArea;
+}
