@@ -28,3 +28,6 @@ function mostWater(heights) {
   }
   return maxArea;
 }
+
+// Time Complexity: O(N)
+// The function has two pointers that iterate thru the entirety of the input array, time complexity directly
