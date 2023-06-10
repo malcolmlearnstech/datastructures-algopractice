@@ -10,3 +10,5 @@ APPROACH:
 6. perform steps 3 to 5 until left & right cross
 
 */
+
+function mostWater(heights) {}
