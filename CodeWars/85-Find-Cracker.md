@@ -51,4 +51,21 @@ If there are 5 or more courses and all courses has a grade of B or above, additi
 Returns the name of the hacked name as an array when scoring with this rule.
 
 </h3>
+
+</div>
+
+<br>
+<pre>
+var array = [
+  ["name1", 445, ["B", "A", "A", "C", "A", "A"]], &nbsp;&nbsp;  <-- name1 total point is over 200 (<em>hacked</em>)
+  ["name2", 110, ["B", "A", "A", "A"]],      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <--name2 point is right
+  ["name3", 200, ["B", "A", "A", "C"]],          &nbsp;&nbsp;  <--name3 point is 200 but real point is 90 (<em>hacked</em>)
+  ["name4", 200, ["A", "A", "A", "A", "A", "A", "A"]]  <--name4 point is right
+]
+</pre>
+
+<br>
+<div align="center">
+
+<p>The function will return the following array: &nbsp;<em><strong>[&nbsp;"name1", &nbsp;"name3"]</strong></em></p>
 </div>
