@@ -14,6 +14,6 @@
 
 <br>
 
-<h3>For example, for the word "zodiacs", let's cross out the vowels. We get: "z ~~o~~ d ~~ia~~ cs"</h3>
+<h3>For example, for the word "zodiacs", let's cross out the vowels. We get: "z <strike>o</strike> d <strike>ia</strike> cs"</h3>
 
 </div>
