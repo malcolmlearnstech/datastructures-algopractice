@@ -15,3 +15,13 @@ function consonantSolve(s) {
 
   return max;
 }
+
+/* 
+REFACTORED SOLUTION -
+
+Instead of storing the alphabet in a string and using indexOf to determine value, 
+we can make an object with each letter having a corresponding value of its number 
+position in the alphabet. Storing this information in an object, makes accessing 
+the corresponding position number a lot easier. It is also less time complex, because 
+we are not using indexOf to iterate thru alphabet string every time to find the value.
+*/
