@@ -30,4 +30,12 @@
 
 <pre>garden = 'gravel gravel rock gravel gravel gravel gravel gravel gravel gravel'</pre>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>rakeGarden('slug spider rock gravel gravel gravel gravel gravel gravel gravel')</pre>
+
+<p>The function will return the following string: &nbsp;<em><strong>'gravel gravel rock gravel gravel gravel gravel gravel gravel gravel'</strong></em></p>
+
 </div>
