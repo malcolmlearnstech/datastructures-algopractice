@@ -19,3 +19,13 @@ function toNumberArray(stringArray) {
 
   return stringArray;
 }
+
+/*
+REFACTORED SOLUTION -
+
+We simply return the mapping over input instead of redefining, decreasing the amount of lines used.
+*/
+
+function toNumberArray(stringArray) {
+  return stringArray.map((element) => Number(element));
+}
