@@ -18,6 +18,10 @@
 
 <br>
 
+<p><em><strong>Note</strong>: You can receive floats as well.</em></p>
+
+<br>
+
 <h3>Example 1:</h3>
 
 <pre>toNumberArray(&nbsp;["1", "2", "3"]&nbsp;)</pre>
