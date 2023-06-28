@@ -1,0 +1,1 @@
+function validatePIN(pin) {}
