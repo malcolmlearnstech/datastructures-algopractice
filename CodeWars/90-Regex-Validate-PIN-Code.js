@@ -12,3 +12,14 @@ function validatePIN(pin) {
   }
   return true;
 }
+
+/*
+REFACTORED SOLUTION:
+
+Rather than using conditional checks, we can implement regex to check for 
+very particular matches. If the regex detects a specific match, it will 
+return 'true'; if no exact match is detected, it will return false. This 
+particular refactor will use regular expression to test strings only of 
+length 4 or 6. It will also test from beginning of string to end, that 
+every character is a number in the range of 0 to 9.
+*/
