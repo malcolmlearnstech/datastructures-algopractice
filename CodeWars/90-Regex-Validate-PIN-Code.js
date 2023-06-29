@@ -23,3 +23,7 @@ particular refactor will use regular expression to test strings only of
 length 4 or 6. It will also test from beginning of string to end, that 
 every character is a number in the range of 0 to 9.
 */
+
+function validatePIN(pin) {
+  return /^[0-9]{4}$|^[0-9]{6}$/.test(pin);
+}
