@@ -8,3 +8,13 @@ function openOrSenior(data) {
   }
   return categories;
 }
+
+/*
+REFACTORED SOLUTION -
+
+As an alternative to the for loop, we can employ the map and tell 
+the map the same conditions for "Open" or "Senior". We are also able 
+to just return the result strings, instead of pushing them into an 
+initialized array. The map naturally returns an array on its own.
+
+*/
