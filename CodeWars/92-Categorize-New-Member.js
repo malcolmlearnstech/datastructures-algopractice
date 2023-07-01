@@ -18,3 +18,15 @@ to just return the result strings, instead of pushing them into an
 initialized array. The map naturally returns an array on its own.
 
 */
+
+function openOrSenior(data) {
+  let categories = data.map((element) => {
+    if (element[0] >= 55 && element[1] > 7) {
+      return 'Senior';
+    } else {
+      return 'Open';
+    }
+  });
+
+  return categories;
+}
