@@ -58,3 +58,9 @@ redefining "data", then having to return its final value at the end
 of the function.
 
 */
+
+function openOrSenior(data) {
+  return data.map((element) => {
+    return element[0] >= 55 && element[1] > 7 ? 'Senior' : 'Open';
+  });
+}
