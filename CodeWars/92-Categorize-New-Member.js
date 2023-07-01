@@ -40,3 +40,11 @@ as we are using a conditional statement with only if and else for the
 map, we can use a ternary for outputting within the map as an alternative.
 
 */
+
+function openOrSenior(data) {
+  data = data.map((element) => {
+    return element[0] >= 55 && element[1] > 7 ? 'Senior' : 'Open';
+  });
+
+  return data;
+}
