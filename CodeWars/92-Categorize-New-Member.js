@@ -30,3 +30,13 @@ function openOrSenior(data) {
 
   return categories;
 }
+
+/*
+REFACTORED SOLUTION -
+
+Because the map naturally returns an array on its own, we can define 
+the results of the map as the new value of our "data" input. Additionally, 
+as we are using a conditional statement with only if and else for the 
+map, we can use a ternary for outputting within the map as an alternative.
+
+*/
