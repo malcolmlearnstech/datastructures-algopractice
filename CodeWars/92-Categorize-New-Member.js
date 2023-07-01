@@ -48,3 +48,13 @@ function openOrSenior(data) {
 
   return data;
 }
+
+/*
+REFACTORED SOLUTION -
+
+Because map returns an array on its own, we can set the funcation's 
+return as the map over the "data" input. This would save us from 
+redefining "data", then having to return its final value at the end 
+of the function.
+
+*/
