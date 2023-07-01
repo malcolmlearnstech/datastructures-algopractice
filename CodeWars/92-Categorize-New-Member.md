@@ -20,4 +20,29 @@
 
 <h3><strong>Output</strong> will consist of a list of string values stating whether the respective member is to be placed in the senior or open category.</h3>
 
+<br>
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>openOrSenior(&nbsp;[&nbsp;[18, 20], [45, 2], [61, 12], [37, 6], [21, 21], [78, 9]&nbsp;]&nbsp;)</pre>
+
+<p>The function will return the following array: &nbsp;<em><strong>["Open", "Open", "Senior", "Open", "Open", "Senior"]</strong></em></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>openOrSenior(&nbsp;[&nbsp;[3, 12], [55,1], [91, -2], [53, 23]&nbsp;]&nbsp;)</pre>
+
+<p>The function will return the following array: &nbsp;<em><strong>["Open", "Open", "Open", "Open"]</strong></em></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>openOrSenior(&nbsp;[&nbsp;[59, 12], [55,-1], [12, -2], [12, 12]&nbsp;]&nbsp;)</pre>
+
+<p>The function will return the following array: &nbsp;<em><strong>["Senior", "Open", "Open", "Open"]</strong></em></p>
+
 </div>
