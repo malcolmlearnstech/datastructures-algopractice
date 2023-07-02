@@ -22,4 +22,28 @@
 
 Don't change the order of the elements that are left.</h3>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>removeSmallest(&nbsp;[1, 2, 3, 4, 5]&nbsp;)</pre>
+
+<p>The function will return the following array: &nbsp;<em><strong>[2, 3, 4, 5]</strong></em></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>removeSmallest(&nbsp;[5, 3, 2, 1, 4]&nbsp;)</pre>
+
+<p>The function will return the following array: &nbsp;<em><strong>[5, 3, 2, 4]</strong></em></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>removeSmallest(&nbsp;[2, 2, 1, 2, 1]&nbsp;)</pre>
+
+<p>The function will return the following array: &nbsp;<em><strong>[2, 2, 2, 1]</strong></em></p>
+
 </div>
