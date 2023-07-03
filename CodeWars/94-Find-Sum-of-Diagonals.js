@@ -7,3 +7,11 @@ function diagonalSum(matrix) {
 
   return diagonal;
 }
+
+/*
+REFACTORED SOLUTION -
+
+We can alternative use the map method to iterate through the 
+input matrix. As map naturally touches each element of the array 
+it is appended to, we also only have to reference index once.
+*/
