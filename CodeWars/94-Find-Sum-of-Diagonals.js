@@ -15,3 +15,11 @@ We can alternative use the map method to iterate through the
 input matrix. As map naturally touches each element of the array 
 it is appended to, we also only have to reference index once.
 */
+
+function diagonalSum(matrix) {
+  let diagonal = 0;
+
+  matrix.map((element, index) => (diagonal += element[index]));
+
+  return diagonal;
+}
