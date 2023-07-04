@@ -31,3 +31,11 @@ An appended map can be used as alternative to the for loop.
 You also do not have to use i because map naturally iterates 
 over each element.
 */
+
+var number = function (busStops) {
+  let passengers = 0;
+
+  busStops.map((element) => (passengers += element[0] - element[1]));
+
+  return passengers;
+};
