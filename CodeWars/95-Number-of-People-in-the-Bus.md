@@ -30,4 +30,28 @@
 
 <br>
 
+<h3>Example 1:</h3>
+
+<pre>busStops(&nbsp;[&nbsp;[10,0], [3,5], [5,8]&nbsp;]&nbsp;)</pre>
+
+<p>The function will return the following array: &nbsp;<em><strong>5</strong></em></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>busStops(&nbsp;[&nbsp;[3,0], [9,1], [4,10], [12,2], [6,1], [7,10]&nbsp;]&nbsp;)</pre>
+
+<p>The function will return the following array: &nbsp;<em><strong>17</strong></em></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>busStops(&nbsp;[&nbsp;[3,0], [9,1], [4,8], [12,2], [6,1], [7,8]&nbsp;]&nbsp;)</pre>
+
+<p>The function will return the following array: &nbsp;<em><strong>21</strong></em></p>
+
+<br>
+
 </div>
