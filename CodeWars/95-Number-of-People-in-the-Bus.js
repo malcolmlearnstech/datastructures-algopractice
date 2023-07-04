@@ -23,3 +23,11 @@ var number = function (busStops) {
   }
   return passengers;
 };
+
+/*
+REFACTORED SOLUTION -
+
+An appended map can be used as alternative to the for loop. 
+You also do not have to use i because map naturally iterates 
+over each element.
+*/
