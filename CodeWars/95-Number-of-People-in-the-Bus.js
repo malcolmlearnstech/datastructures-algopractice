@@ -7,3 +7,10 @@ var number = function (busStops) {
   }
   return passengers;
 };
+
+/*
+REFACTORED SOLUTION -
+
+Alternative within the for loop is to just add and subtract 
+the riders that board and depart to passengers variable in one line.
+*/
