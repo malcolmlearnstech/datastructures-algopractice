@@ -44,3 +44,9 @@ array, we can now apply the same filter logic on the "nCount" variable
 as well. Searching for only elements that equal the value of "n", 
 then checking the length of the filtered array.
 */
+
+function stantonMeasure(array) {
+  let n = array.filter((element) => element === 1).length;
+  let nCount = array.filter((element) => element === n).length;
+  return nCount;
+}
