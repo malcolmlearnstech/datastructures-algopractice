@@ -35,3 +35,12 @@ function stantonMeasure(array) {
   }
   return nCount;
 }
+
+/*
+REFACTORED SOLUTION -
+
+With "n" holding the value that we will search for in the input 
+array, we can now apply the same filter logic on the "nCount" variable 
+as well. Searching for only elements that equal the value of "n", 
+then checking the length of the filtered array.
+*/
