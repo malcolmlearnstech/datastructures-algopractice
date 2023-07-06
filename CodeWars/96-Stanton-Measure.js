@@ -15,3 +15,11 @@ function stantonMeasure(array) {
   }
   return nCount;
 }
+
+/*
+REFACTORED SOLUTION -
+
+As an alternative for iterating thru the array and incrementing 
+the variable n's value. We use a filter to check for the amount 
+of 1's in the input array then check for length.
+*/
