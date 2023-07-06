@@ -58,3 +58,8 @@ Instead of performing filter, then placing the length of that
 filtered array in the "nCount" variable, we just return the 
 filter and length combo themselves.
 */
+
+function stantonMeasure(array) {
+  let n = array.filter((element) => element === 1).length;
+  return array.filter((element) => element === n).length;
+}
