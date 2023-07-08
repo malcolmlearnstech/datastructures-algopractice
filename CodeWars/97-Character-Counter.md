@@ -25,7 +25,7 @@
 <pre>validateWord("abcabc")</pre>
 
 <p>The function will return the following: &nbsp;<em><strong>true</strong></em></p>
-<p><em></em></p>
+<p><em>Input is a valid word because <strong>"a"</strong> appears twice, <strong>"b"</strong> appears twice, and <strong>"c"</strong> appears twice.</em></p>
 
 <br>
 
@@ -34,7 +34,7 @@
 <pre>validateWord("abcabcd")</pre>
 
 <p>The function will return the following: &nbsp;<em><strong>false</strong></em></p>
-<p><em></em></p>
+<p><em>Input is NOT a valid word because <strong>"a"</strong> appears twice, <strong>"b"</strong> appears twice, <strong>"c"</strong> appears twice, but <strong>"d"</strong> only appears once!</em></p>
 
 <br>
 
@@ -43,7 +43,7 @@
 <pre>validateWord("123abc!")</pre>
 
 <p>The function will return the following: &nbsp;<em><strong>true</strong></em></p>
-<p><em></em></p>
+<p><em>Input is a valid word because all of the characters only appear once in the word.</em></p>
 
 <br>
 
