@@ -1,0 +1,1 @@
+function smash(words) {}
