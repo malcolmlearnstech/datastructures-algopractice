@@ -11,3 +11,11 @@ function smash(words) {
 
   return sentence;
 }
+
+/*
+REFACTORED SOLUTION
+*/
+
+function smash(words) {
+  return words.join(' ');
+}
