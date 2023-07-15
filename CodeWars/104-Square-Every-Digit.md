@@ -12,4 +12,30 @@
 
 <h3>Example #2: An input of 765 will/should return 493625 because 7<sup>2</sup> is 49, 6<sup>2</sup> is 36, and 5<sup>2</sup> is 25. (49-36-25)</h3>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>squareDigits(&nbsp;3212&nbsp;)</pre>
+
+<p>The function will return the following result: &nbsp;<em><strong>9414</strong></em></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>squareDigits(&nbsp;2112&nbsp;)</pre>
+
+<p>The function will return the following result: &nbsp;<em><strong>4114</strong></em></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>squareDigits(&nbsp;0&nbsp;)</pre>
+
+<p>The function will return the following result: &nbsp;<em><strong>0</strong></em></p>
+
+<br>
+
 </div>
