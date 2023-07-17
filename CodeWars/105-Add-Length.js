@@ -8,3 +8,11 @@ function addLength(str) {
 
   return result;
 }
+
+/*
+REFACTORED SOLUTION -
+
+Instead of initializing an empty and pushing the words and 
+their lengths, we can map method to automatically return a 
+new array with words and lengths within a template literal.
+*/
