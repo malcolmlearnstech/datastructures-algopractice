@@ -16,3 +16,9 @@ Instead of initializing an empty and pushing the words and
 their lengths, we can map method to automatically return a 
 new array with words and lengths within a template literal.
 */
+
+function addLength(str) {
+  str = str.split(' ');
+
+  return str.map((element) => `${element} ${element.length}`);
+}
