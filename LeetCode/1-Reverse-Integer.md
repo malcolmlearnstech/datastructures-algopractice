@@ -12,4 +12,29 @@
 
 <h3>Constraints: &nbsp;&nbsp; <em>-2<sup>31</sup> <= x <= 2<sup>31</sup> - 1</em></h3>
 
+<br>
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>reverse(&nbsp;123&nbsp;)</pre>
+
+<p>The function will return the following result: &nbsp;<em><strong>321</strong></em></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>reverse(&nbsp;-123&nbsp;)</pre>
+
+<p>The function will return the following result: &nbsp;<em><strong>-321</strong></em></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>reverse(&nbsp;120&nbsp;)</pre>
+
+<p>The function will return the following result: &nbsp;<em><strong>21</strong></em></p>
+
 </div>
