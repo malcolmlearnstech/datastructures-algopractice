@@ -1,0 +1,1 @@
+var reverse = function (x) {};
