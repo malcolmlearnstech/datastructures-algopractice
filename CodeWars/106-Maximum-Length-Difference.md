@@ -10,4 +10,15 @@
 
 <h3>If <em>a1</em> and/or <em>a2</em> are empty return -1</h3>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<p>a1 = <em>["hoqq", "bbllkw", "oox", "ejjuyyy", "plmiis", "xxxzgpsssa", "xxwwkktt", "znnnnfqknaz", "qqquuhii", "dvvvwz"]</em></p>
+<p>a2 = <em>["cccooommaaqqoxii", "gggqaffhhh", "tttoowwwmmww"]</em></p>
+
+<pre>mxdiflg(&nbsp;a1, a2&nbsp;)</pre>
+
+<p>The function will return the following: &nbsp;<em><strong>13</strong></em></p>
+
 </div>
