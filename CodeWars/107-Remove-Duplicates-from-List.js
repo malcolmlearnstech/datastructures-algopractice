@@ -19,3 +19,11 @@ function distinct(a) {
 
   return result;
 }
+
+/*
+REFACTORED SOLUTIONS-
+
+Using the object and array still, we can set the function to only 
+push the number  we're on as long as the number being iterated over 
+is NOT already in the object.
+*/
