@@ -27,3 +27,17 @@ Using the object and array still, we can set the function to only
 push the number  we're on as long as the number being iterated over 
 is NOT already in the object.
 */
+
+function distinct(a) {
+  let uniqueNums = [];
+  let visitedNums = {};
+
+  for (let i = 0; i < a.length; i++) {
+    if (!visitedNums[a[i]]) {
+      visitedNums[a[i]] = 1;
+      uniqueNums.push(a[i]);
+    }
+  }
+
+  return uniqueNums;
+}
