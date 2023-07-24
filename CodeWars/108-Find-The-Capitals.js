@@ -1,0 +1,1 @@
+var capitals = function (word) {};
