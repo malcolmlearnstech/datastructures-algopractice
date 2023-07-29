@@ -22,3 +22,9 @@ function capitalize(s) {
 
   return result;
 }
+
+/*
+REFACTORED SOLUTION -
+
+Instead of using a for loop, then having to reset the input string; we can map thru the input string in two seperate instances. In each instance, we account for the conditions needed for upper casing and lower casing, THEN using join to make the map a string and pushing both modified strings into the result array.
+*/
