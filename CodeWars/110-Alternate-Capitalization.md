@@ -12,4 +12,28 @@
 
 <h3>The input will be a lowercase string with no spaces.</h3>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>capitalize("abcdef")</pre>
+
+<p>The function will return the following array: &nbsp;<strong>[&nbsp;&nbsp;'AbCdEf', 'aBcDeF'&nbsp;&nbsp;]</strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>capitalize("codewars")</pre>
+
+<p>The function will return the following array: &nbsp;<strong>[&nbsp;&nbsp;'CoDeWaRs', 'cOdEwArS'&nbsp;&nbsp;]</strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>capitalize("abracadabra")</pre>
+
+<p>The function will return the following array: &nbsp;<strong>[&nbsp;&nbsp;'AbRaCaDaBrA', 'aBrAcAdAbRa'&nbsp;&nbsp;]</strong></p>
+
 </div>
