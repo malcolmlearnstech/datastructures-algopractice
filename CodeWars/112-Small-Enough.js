@@ -1,0 +1,1 @@
+function smallEnough(a, limit) {}
