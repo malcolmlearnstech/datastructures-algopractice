@@ -7,3 +7,10 @@ function sumOfMinimums(arr) {
 
   return result;
 }
+
+/*
+REFACTORED SOLUTION -
+
+We can use map to iterate thru the inner arrays as well, still 
+using Math.min to find the smallest numbers in each.
+*/
