@@ -18,4 +18,20 @@
 
 <p><strong>Note: You will always be given a non-empty list containing positive values.</strong></p>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>sumOfMinimums(&nbsp;[7, 9, 8, 6, 2], [6, 3, 5, 4, 3], [5, 8, 7, 4, 5]&nbsp;)</pre>
+
+<p>The function will return the following: &nbsp;<strong>9</strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>sumOfMinimums(&nbsp;[11, 12, 14, 54], [67, 89, 90, 56], [7, 9, 4, 3], [9, 8, 6, 7]&nbsp;)</pre>
+
+<p>The function will return the following: &nbsp;<strong>76</strong></p>
+
 </div>
