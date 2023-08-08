@@ -21,4 +21,20 @@
 
 <h3>Return an array answer of size <em>n</em> where <em>answer[i]</em> is the rank of the <em>i<sup>th</sup><em> athlete.</h3>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>findRelativeRanks(&nbsp;[5, 4, 3, 2, 1]&nbsp;)</pre>
+
+<p>The function will return the following result: &nbsp;<em><strong>["Gold Medal", "Silver Medal", "Bronze Medal", "4", "5"]</strong></em></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>findRelativeRanks(&nbsp;[10, 3, 8, 9, 4]&nbsp;)</pre>
+
+<p>The function will return the following result: &nbsp;<em><strong>["Gold Medal", "5", "Bronze Medal", "Silver Medal", "4"]</strong></em></p>
+
 </div>
