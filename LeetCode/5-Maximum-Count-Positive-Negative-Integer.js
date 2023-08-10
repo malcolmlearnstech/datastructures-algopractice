@@ -13,3 +13,11 @@ var maximumCount = function (nums) {
 
   return Math.max(pos, neg);
 };
+
+/*
+REFACTORED SOLUTION -
+
+While the original solution has a linear time complexity "O(n)", 
+we can use two while loops to solve this in a slightly less time 
+complex way of "O(log n)"
+*/
