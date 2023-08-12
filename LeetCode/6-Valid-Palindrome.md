@@ -20,4 +20,18 @@
 
 <br>
 
+<h3>Example 2:</h3>
+
+<pre>isPalindrome(&nbsp;"race a car"&nbsp;)</pre>
+
+<p>The function will return the following result: <em><strong>false</strong></em></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>isPalindrome(&nbsp;" "&nbsp;)</pre>
+
+<p>The function will return the following result: <em><strong>true</strong> <br> (s is an empty string "" after removing non-alphanumeric characters. Since an empty string reads the same forward and backward, it is a palindrome.)</em></p>
+
 </div>
