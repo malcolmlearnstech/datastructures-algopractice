@@ -16,4 +16,28 @@
 <p>• Array size is at least 1.</p>
 <p>• <em>All numbers</em> will be positive.</p>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>rowWeights([13, 27, 49])</pre>
+
+<p>The function will return the following array: &nbsp;<strong>[&nbsp;62, 27&nbsp;]</strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>rowWeights([50,60,70,80])</pre>
+
+<p>The function will return the following array: &nbsp;<strong>[&nbsp;120, 140&nbsp;]</strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>rowWeights([29,83,67,53,19,28,96])</pre>
+
+<p>The function will return the following array: &nbsp;<strong>[&nbsp;211, 164&nbsp;]</strong></p>
+
 </div>
