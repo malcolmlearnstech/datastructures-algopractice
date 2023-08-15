@@ -50,3 +50,31 @@ var nextGreatestLetter = function (letters, target) {
     return shortestLetter;
   }
 };
+
+/*
+REFACTORED SOLUTION -
+
+As string letters have their own native placement within javascript, 
+we can use the loop to simply iterate thru the "letters" array and 
+define the answer as the first iterated letter which exists in 
+placement after the "target" 
+*/
+
+var nextGreatestLetter = function (letters, target) {
+  let shortestLetter;
+
+  for (let i = 0; i < letters.length; i++) {
+    let currentLetter = letters[i];
+
+    if (currentLetter > target) {
+      shortestLetter = currentLetter;
+      break;
+    }
+  }
+
+  if (shortestLetter === undefined) {
+    return letters[0];
+  } else {
+    return shortestLetter;
+  }
+};
