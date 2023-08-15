@@ -10,4 +10,20 @@
 
 <h3>An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.</h3>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>isAnagram(&nbsp;"anagram", "nagaram"&nbsp;)</pre>
+
+<p>The function will return the following result: <em><strong>true</strong></em></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>isAnagram(&nbsp;"rat", "car"&nbsp;)</pre>
+
+<p>The function will return the following result: <em><strong>false</strong></em></p>
+
 </div>
