@@ -12,4 +12,28 @@
 
 <h3>Mind the input validation.</h3>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>sumArray( [6, 2, 1, 8, 10] )</pre>
+
+<p>The function will return the following array: &nbsp;<strong>16</strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>sumArray( [1, 1, 11, 2, 3] )</pre>
+
+<p>The function will return the following array: &nbsp;<strong>6</strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>sumArray( [3] )</pre>
+
+<p>The function will return the following array: &nbsp;<strong>0</strong></p>
+
 </div>
