@@ -14,6 +14,12 @@
 
 <br>
 
+## Input Validation
+
+<p>If an empty value ( <strong><em>"null", "None", Nothing </em></strong>etc. ) is given instead of an array, or the given array is an empty list or a list with <strong><em>only 1 element</em></strong>, return <em>0</em>.</p>
+
+<br>
+
 <h3>Example 1:</h3>
 
 <pre>sumArray( [6, 2, 1, 8, 10] )</pre>
