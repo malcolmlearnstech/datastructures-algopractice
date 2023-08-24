@@ -1,1 +1,5 @@
-function position(letter) {}
+function position(letter) {
+  let alphabet = ' abcdefghijklmnopqrstuvwxyz';
+
+  return `Position of alphabet: ${alphabet.indexOf(letter)}`;
+}
