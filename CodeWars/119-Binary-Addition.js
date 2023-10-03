@@ -1,0 +1,1 @@
+function addBinary(a, b) {}
