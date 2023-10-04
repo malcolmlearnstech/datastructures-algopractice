@@ -7,3 +7,13 @@ function past(h, m, s) {
 
   return milliseconds;
 }
+
+/*
+REFACTORED SOLUTION -
+
+We can alter the values of our given inputs then add those to 
+get our result instead. This will also slightly reduce our space 
+complexity as we won't have to create another variable to hold 
+this result.
+
+*/
