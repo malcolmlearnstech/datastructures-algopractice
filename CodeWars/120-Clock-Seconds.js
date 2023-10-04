@@ -17,3 +17,11 @@ complexity as we won't have to create another variable to hold
 this result.
 
 */
+
+function past(h, m, s) {
+  s = s * 1000;
+  m = m * 60000;
+  h = h * 3600000;
+
+  return s + m + h;
+}
