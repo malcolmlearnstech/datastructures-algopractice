@@ -16,7 +16,7 @@
 
 <pre>addBinary(1, 1)</pre>
 
-<p>The function will return the following array: &nbsp;<strong><em>"10"</em></strong></p>
+<p>The function will return the following string: &nbsp;<strong><em>"10"</em></strong></p>
 <p><em>(1 + 1 = 2 in decimal or 10 in binary)</em></p>
 
 <br>
@@ -25,7 +25,7 @@
 
 <pre>addBinary(5, 9)</pre>
 
-<p>The function will return the following array: &nbsp;<strong><em>"1110"</em></strong></p>
+<p>The function will return the following string: &nbsp;<strong><em>"1110"</em></strong></p>
 <p><em>(5 + 9 = 14 in decimal or 1110 in binary)</em></p>
 
 </div>
