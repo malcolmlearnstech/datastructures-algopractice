@@ -21,3 +21,14 @@ to only look at how many elements match the current "b" array element
 that we are iterating on. This will more than likely still carry the same 
 time complexity as the initial solution.
 */
+
+function solve(a, b) {
+  let matches = [];
+
+  for (let i = 0; i < b.length; i++) {
+    let match = a.filter((element) => element === b[i]).length;
+    matches.push(match);
+  }
+
+  return matches;
+}
