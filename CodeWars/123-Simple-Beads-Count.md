@@ -10,4 +10,28 @@
 
 <h3><font color="blue">@</font> <font color="red">@@</font> <font color="blue">@</font> <font color="red">@@</font> <font color="blue">@</font> <font color="red">@@</font> <font color="blue">@</font> <font color="red">@@</font> <font color="blue">@</font> <font color="red">@@</font> <font color="blue">@</font></h3>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>countRedBeas(0)</pre>
+
+<p>The function will return the following result: &nbsp;<strong><em>0</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>countRedBeas(3)</pre>
+
+<p>The function will return the following result: &nbsp;<strong><em>4</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>countRedBeas(5)</pre>
+
+<p>The function will return the following result: &nbsp;<strong><em>8</em></strong></p>
+
 </div>
