@@ -9,3 +9,10 @@ function countRedBeads(n) {
     return n * 2 - 2;
   }
 }
+
+/*
+REFACTORED SOLUTION - 
+
+After checking that the input is greater than 2, we can use 
+a ternary operator as an alternative to if/else conditional check.
+*/
