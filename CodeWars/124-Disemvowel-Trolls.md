@@ -16,4 +16,28 @@
 
 <h3><em>Note: for this kata "y" isn't considered a vowel.</em></h3>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>disemvowel("This website is for losers LOL!")</pre>
+
+<p>The function will return the following string: &nbsp;<strong><em>"Ths wbst s fr lsrs LL!"</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>disemvowel("No offense but,\nYour writing is among the worst I've ever read")</pre>
+
+<p>The function will return the following string: &nbsp;<strong><em>"N ffns bt,\nYr wrtng s mng th wrst 'v vr rd"</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>disemvowel("What are you, a communist?")</pre>
+
+<p>The function will return the following string: &nbsp;<strong><em>"Wht r y,  cmmnst?"</em></strong></p>
+
 </div>
