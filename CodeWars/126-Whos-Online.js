@@ -37,3 +37,30 @@ references to them in their corresponding conditionals. We can
 also use a for-in loop after populating the return object to check 
 for which status have no names associated with them.
 */
+
+function whosOnline(friends) {
+  let userStatus = {
+    online: [],
+    offline: [],
+    away: [],
+  };
+
+  friends.map((element) => {
+    let status = element.status;
+    let user = element.username;
+    if (status === 'offline') {
+      userStatus.offline.push(user);
+    } else if (status === 'online' && element.lastActivity > 10) {
+      userStatus.away.push(user);
+    } else {
+      userStatus.online.push(user);
+    }
+  });
+
+  for (const key in userStatus) {
+    if (userStatus[key].length === 0) {
+      delete userStatus[key];
+    }
+  }
+  return userStatus;
+}
