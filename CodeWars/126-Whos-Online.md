@@ -32,4 +32,27 @@
 
 <pre>{&nbsp;offline: ['Lucy'], away: ['Bob']&nbsp;}</pre>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>whosOnline([ &nbsp;{username: 'David', status: 'online',lastActivity: 10}, 
+{username: 'Lucy', status: 'online', lastActivity: 0}, 
+{username: 'Bob', status: 'online', lastActivity: 3},
+{username: 'Julie', status: 'offline', lastActivity: 104},
+{username: 'Benny', status: 'online', lastActivity: 38}&nbsp;])</pre>
+
+<p>The function will return the following array: &nbsp;<strong><em>{&nbsp;online: [&nbsp;'David', 'Lucy', 'Bob'&nbsp;], offline: [&nbsp;'Julie'&nbsp;], away: [&nbsp;'Benny'&nbsp;]&nbsp;}</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>whosOnline([ &nbsp;{username: 'Latte', status: 'online',lastActivity: 50}, 
+{username: 'Karen', status: 'online', lastActivity: 13}, 
+{username: 'Puffin', status: 'offline', lastActivity: 91},
+&nbsp;])</pre>
+
+<p>The function will return the following array: &nbsp;<strong><em>{&nbsp;offline: [&nbsp;'Puffin'&nbsp;], away: [&nbsp;'Latter', 'Karen'&nbsp;]&nbsp;}</em></strong></p>
+
 </div>
