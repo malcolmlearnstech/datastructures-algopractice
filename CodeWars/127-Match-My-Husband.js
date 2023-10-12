@@ -12,3 +12,12 @@ function match(usefullness, months) {
   }
   return usefulTotal > needs ? 'Match!' : 'No match!';
 }
+
+/*
+REFACTORED SOLUTION -
+
+We can use the reduce method to calculate the total from usefulness 
+array as an alternative to the for of loop. With calculating needs, we 
+can use Math.floor to get a solid integer, because we are using 
+percentages by month.
+*/
