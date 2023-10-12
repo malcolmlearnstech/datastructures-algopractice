@@ -20,4 +20,28 @@
 
 <h3>Given the number of months since sign up, write a function that returns "Match!" if the husband is useful enough, or "No match!" if he's not.</h3>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>match(&nbsp;[15,24,12], 4&nbsp;)</pre>
+
+<p>The function will return the following string: &nbsp;<strong><em>"No match!"</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>match(&nbsp;[26,23,19], 3&nbsp;)</pre>
+
+<p>The function will return the following string: &nbsp;<strong><em>"Match!"</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>match(&nbsp;[34,25,36], 3&nbsp;)</pre>
+
+<p>The function will return the following string: &nbsp;<strong><em>"Match!"</em></strong></p>
+
 </div>
