@@ -14,4 +14,28 @@
 
 <h3>If the string is less than 4 characters, return "Error: Name too short".</h3>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>nicknameGenerator(&nbsp;"Robert"&nbsp;)</pre>
+
+<p>The function will return the following string: &nbsp;<strong><em>"Rob"</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>nicknameGenerator(&nbsp;"Jeannie"&nbsp;)</pre>
+
+<p>The function will return the following string: &nbsp;<strong><em>"Jean"</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>nicknameGenerator(&nbsp;"Douglas"&nbsp;)</pre>
+
+<p>The function will return the following string: &nbsp;<strong><em>"Doug"</em></strong></p>
+
 </div>
