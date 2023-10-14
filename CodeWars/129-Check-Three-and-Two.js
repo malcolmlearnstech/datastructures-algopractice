@@ -1,0 +1,1 @@
+function checkThreeAndTwo(array) {}
