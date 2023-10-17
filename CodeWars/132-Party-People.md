@@ -10,4 +10,11 @@
 
 <h3>Given an array with the preferences of every person at a party for the minimum number of people present, determine how many people will stay.</h3>
 
+<h3>Explanation:</h3>
+
+<pre>
+[4, 5, 4, 1] => 1
+Ava's minimum number is 4, Mark's is 5, Sheila's is 4, and Pete's is 1.
+Only 1 person (Pete) stays.
+</pre>
 </div>
