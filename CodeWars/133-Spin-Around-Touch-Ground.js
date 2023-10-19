@@ -16,3 +16,13 @@ we can apply Math.abs early on if the number is negative then still
 use Math.floor to round down. This keeps the calculation of the amount 
 of turns more programmatic.
 */
+
+function spinAround(turns) {
+  let start = 0;
+
+  for (let i = 0; i < turns.length; i++) {
+    turns[i] === 'right' ? (start += 90) : (start -= 90);
+  }
+
+  return Math.floor(Math.abs(start / 360));
+}
