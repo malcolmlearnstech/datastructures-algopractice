@@ -29,3 +29,12 @@ matches to either all upper case or lower case letters. With the two arrays
 exisiting, we can then use Array.concat() to bring the elements together in 
 proper order. Lastly we apply the join method to make the return a string again.
 */
+
+function capitalsFirst(str) {
+  str = str.split(' ');
+
+  let uppercase = str.filter((element) => element[0].match(/[A-Z]/g));
+  let lowercase = str.filter((element) => element[0].match(/[a-z]/g));
+
+  return uppercase.concat(lowercase).join(' ');
+}
