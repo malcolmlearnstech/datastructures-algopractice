@@ -19,3 +19,11 @@ letter and then joining, we simply refer to the first letter and
 capitalize then concatenate a slice of the rest of the word. We 
 then rejoin the whole of the array of words.
 */
+
+String.prototype.toJadenCase = function () {
+  return this.split(' ')
+    .map((element) => {
+      return element.charAt(0).toUpperCase().concat(element.slice(1));
+    })
+    .join(' ');
+};
