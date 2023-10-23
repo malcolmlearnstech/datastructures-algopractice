@@ -1,0 +1,1 @@
+function removeUrlAnchor(url) {}
