@@ -14,3 +14,7 @@ string. As the string method will return an array, and we want to
 pull everything before the pound sign, we choose the array reference 
 of zero ("0") which will be the first array element before the pound.
 */
+
+function removeUrlAnchor(url) {
+  return url.split('#')[0];
+}
