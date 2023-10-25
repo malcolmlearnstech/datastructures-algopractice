@@ -1,1 +1,3 @@
-function digits(n) {}
+function digits(n) {
+  n.toString().split('').length;
+}
