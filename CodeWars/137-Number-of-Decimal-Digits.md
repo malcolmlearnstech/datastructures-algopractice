@@ -10,4 +10,28 @@
 
 <h3>All inputs will be valid.</h3>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function digits(66)</pre>
+
+<p>The function will return the following result: &nbsp;<strong><em>2</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function digits(128685)</pre>
+
+<p>The function will return the following result: &nbsp;<strong><em>6</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>function digits(9876543210)</pre>
+
+<p>The function will return the following result: &nbsp;<strong><em>10</em></strong></p>
+
 </div>
