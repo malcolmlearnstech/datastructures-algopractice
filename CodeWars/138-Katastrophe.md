@@ -18,4 +18,28 @@
 
 <h3>Given an earthquake and the age of a building, write a function that returns "Safe!" if the building is strong enough, or "Needs Reinforcement!" if it falls.</h3>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function strongEnough([[2,3,1],[3,1,1],[1,1,2]], 2)</pre>
+
+<p>The function will return the following string: &nbsp;<strong><em>"Safe!"</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function strongEnough([[5,8,7],[3,3,1],[4,1,2]], 2)</pre>
+
+<p>The function will return the following string: &nbsp;<strong><em>"Safe!"</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>function strongEnough([[5,8,7],[3,3,1],[4,1,2]], 3)</pre>
+
+<p>The function will return the following string: &nbsp;<strong><em>"Needs Reinforcement!"</em></strong></p>
+
 </div>
