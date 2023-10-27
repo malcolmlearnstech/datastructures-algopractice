@@ -12,3 +12,16 @@ function nbDig(n, d) {
   }
   return count;
 }
+
+/* REFACTORED SOLUTION */
+
+function nbDig(n, d) {
+  let count = '';
+  let regex = RegExp(d, 'g');
+
+  for (let i = 0; i <= n; i++) {
+    count += String(Math.pow(i, 2));
+  }
+
+  return count.match(regex).length;
+}
