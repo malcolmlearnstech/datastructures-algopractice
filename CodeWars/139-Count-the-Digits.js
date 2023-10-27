@@ -1,0 +1,1 @@
+function nbDig(n, d) {}
