@@ -20,3 +20,7 @@ of the "number" input as the perimeter to indicate how far
 backwards from the end we should pick even numbers out to return 
 as our output array.
 */
+
+function evenNumbers(array, number) {
+  return array.filter((element) => element % 2 === 0).slice(-number);
+}
