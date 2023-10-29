@@ -7,3 +7,9 @@ function noBoringZeros(n) {
 
   return Number(n.join(''));
 }
+
+/*REFACTORED SOLUTION -
+
+Within the for-loop, we can alternatively apply the replace 
+method with a regex pattern to eliminate any zeros.
+*/
