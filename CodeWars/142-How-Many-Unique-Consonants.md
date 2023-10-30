@@ -38,4 +38,12 @@
 
 <p>The function will return the following result: &nbsp;<strong><em>7</em></strong></p>
 
+<br>
+
+<h3>Example 4:</h3>
+
+<pre>function countConsonants(&nbsp;"abcdefghijklmnopqrstuvwxyz"&nbsp;)</pre>
+
+<p>The function will return the following result: &nbsp;<strong><em>21</em></strong></p>
+
 </div>
