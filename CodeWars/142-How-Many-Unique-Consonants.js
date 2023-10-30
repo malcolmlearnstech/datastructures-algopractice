@@ -9,3 +9,11 @@ function countConsonants(str) {
   }
   return Object.keys(cons).length;
 }
+
+/*
+REFACTOR SOLUTION - 
+
+Within the regex paramter used in the match method, alternative 
+to listing all consonants, we can use "0-9" to exclude numbers 
+and "\W" to exclude any special characters or symbols.
+*/
