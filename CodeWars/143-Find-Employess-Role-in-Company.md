@@ -16,4 +16,28 @@
 
 <h3>There are no duplicate names in the array and the name passed in will be a single string with a space between the first and last name i.e. Jane Doe or just a name.</h3>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function findEmployeesRole(&nbsp;"Dipper Pines"&nbsp;)</pre>
+
+<p>The function will return the following result: &nbsp;<strong><em>"Does not work here!"</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function findEmployeesRole(&nbsp;"Morty Smith"&nbsp;)</pre>
+
+<p>The function will return the following result: &nbsp;<strong><em>"Truck Driver"</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>function findEmployeesRole(&nbsp;"Anna Bell"&nbsp;)</pre>
+
+<p>The function will return the following result: &nbsp;<strong><em>"Admin"</em></strong></p>
+
 </div>
