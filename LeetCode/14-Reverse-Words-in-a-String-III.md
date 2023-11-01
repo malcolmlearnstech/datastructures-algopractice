@@ -15,4 +15,20 @@
 
 <h5>•&nbsp;All the words in <em>s</em> are separated by a single space</h5>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>reverseWords("Let's take LeetCode contest")</pre>
+
+<p>The function will return the following string: &nbsp;<strong><em>"s'teL ekat edoCteeL tsetnoc"</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>reverseWords("God Ding")</pre>
+
+<p>The function will return the following string: &nbsp;<strong><em>"doG gniD"</em></strong></p>
+
 </div>
