@@ -11,3 +11,13 @@ function flattenAndSort(array) {
 
   return resultArray.sort((a, b) => a - b);
 }
+
+/*
+REFACTORED SOLUTION -
+
+To decrease time complexity, we can remove the use of map 
+method. Using our knowledge that this input will only be a 
+two-dimensional array, we can elect to push a shallow copy 
+of the current array element into our resultArray to later 
+have the integers sorted.
+*/
