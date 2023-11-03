@@ -3,3 +3,22 @@
 # A Wolf in Sheep's Clothing
 
 </div>
+
+<div align = 'center'>
+
+<h3>Wolves have been reintroduced to Great Britain. You are a sheep farmer, and are now plagued by wolves which pretend to be sheep. Fortunately, you are good at spotting them.</h3>
+
+<h3>Warn the sheep in front of the wolf that it is about to be eaten. Remember that you are standing at the front of the queue which is at the end of the array:</h3>
+
+<pre>
+[sheep, sheep, sheep, sheep, sheep, wolf, sheep, sheep]     
+  7     6     5      4      3            2      1
+
+  (YOU ARE AT THE FRONT OF THE QUEUE)  
+</pre>
+
+<h3>If the wolf is the closest animal to you, return <em>"Pls go away and stop eating my sheep"</em>. Otherwise, return <em>"Oi! Sheep number N! You are about to be eaten by a wolf!"</em> where <em>N</em> is the sheep's position in the queue.</h3>
+
+<h4><em>*Note: there will always be exactly one wolf in the array*</em></h4>
+
+</div>
