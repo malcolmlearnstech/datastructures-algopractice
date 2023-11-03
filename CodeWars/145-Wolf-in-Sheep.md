@@ -12,13 +12,14 @@
 
 <pre>
 [sheep, sheep, sheep, sheep, sheep, wolf, sheep, sheep]     
-  7     6     5      4      3            2      1
-
-  (YOU ARE AT THE FRONT OF THE QUEUE)  
+<div align = 'left'> 
+                             7      6      5      4      3            2      1
+</div>
+(YOU ARE THE FRONT OF THE QUEUE)
 </pre>
 
 <h3>If the wolf is the closest animal to you, return <em>"Pls go away and stop eating my sheep"</em>. Otherwise, return <em>"Oi! Sheep number N! You are about to be eaten by a wolf!"</em> where <em>N</em> is the sheep's position in the queue.</h3>
 
-<h4><em>*Note: there will always be exactly one wolf in the array*</em></h4>
+<h4><em>Note: there will always be exactly one wolf in the array*</em></h4>
 
 </div>
