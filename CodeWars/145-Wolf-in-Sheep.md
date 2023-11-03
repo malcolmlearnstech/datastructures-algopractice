@@ -22,4 +22,28 @@
 
 <h4><em>Note: there will always be exactly one wolf in the array*</em></h4>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function warnTheSheep(&nbsp;["sheep", "sheep", "sheep", "wolf", "sheep"]&nbsp;)</pre>
+
+<p>The function will return the following string: &nbsp;<strong><em>"Oi! Sheep number 1! You are about to be eaten by a wolf!"</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function warnTheSheep(&nbsp;["sheep", "sheep", "wolf"]&nbsp;)</pre>
+
+<p>The function will return the following string: &nbsp;<strong><em>"Pls go away and stop eating my sheep"</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>function warnTheSheep(&nbsp;["wolf", "sheep", "sheep", "sheep", "sheep", "sheep", "sheep"]&nbsp;)</pre>
+
+<p>The function will return the following string: &nbsp;<strong><em>"Oi! Sheep number 6! You are about to be eaten by a wolf!"</em></strong></p>
+
 </div>
