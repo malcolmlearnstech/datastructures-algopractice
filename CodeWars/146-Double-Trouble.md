@@ -17,4 +17,28 @@
 
 <h3>Return the resulting array.</h3>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function trouble(&nbsp;[1, 3, 5, 6, 7, 4, 3], &nbsp;7&nbsp;)</pre>
+
+<p>The function will return the following array: &nbsp;<strong><em>[&nbsp;1, 3, 5, 6, 7, 4&nbsp;]</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function trouble(&nbsp;[2, 2, 2, 2, 2, 2], &nbsp;4&nbsp;)</pre>
+
+<p>The function will return the following array: &nbsp;<strong><em>[&nbsp;2&nbsp;]</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>function trouble(&nbsp;[2, 6, 2], &nbsp;8&nbsp;)</pre>
+
+<p>The function will return the following array: &nbsp;<strong><em>[&nbsp;2, 2&nbsp;]</em></strong></p>
+
 </div>
