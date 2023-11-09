@@ -23,3 +23,16 @@ ternary operator where the first condition can use greater than
 or equal to account for the lower case equal to upper case 
 condition of the original prompt.
 */
+
+function solve(s) {
+  let lowers = 0;
+  let uppers = 0;
+
+  for (let i = 0; i < s.length; i++) {
+    if (s[i].match(/[a-z]/g)) {
+      lowers++;
+    } else uppers++;
+  }
+
+  return lowers >= uppers ? s.toLowerCase() : s.toUpperCase();
+}
