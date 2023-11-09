@@ -36,3 +36,12 @@ function solve(s) {
 
   return lowers >= uppers ? s.toLowerCase() : s.toUpperCase();
 }
+
+/*
+SECOND REFACTORED SOLUTION - 
+
+Alternative to using the for loop and iterating thru the 
+input string, we can define the "upper" and "lower" variables 
+using the filter method and counting the length to determine 
+how many of each type of letter there are.
+*/
