@@ -45,3 +45,10 @@ input string, we can define the "upper" and "lower" variables
 using the filter method and counting the length to determine 
 how many of each type of letter there are.
 */
+
+function solve(s) {
+  let lowers = s.split('').filter((element) => element.match(/[a-z]/g)).length;
+  let uppers = s.split('').filter((element) => element.match(/[A-Z]/g)).length;
+
+  return lowers >= uppers ? s.toLowerCase() : s.toUpperCase();
+}
