@@ -14,3 +14,12 @@ function solve(s) {
     return s.toUpperCase();
   } else return s.toLowerCase();
 }
+
+/*
+REFACTORED SOLUTION -
+
+Instead of using a bunch of conditional if/else's, we can use a 
+ternary operator where the first condition can use greater than 
+or equal to account for the lower case equal to upper case 
+condition of the original prompt.
+*/
