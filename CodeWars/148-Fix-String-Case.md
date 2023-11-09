@@ -14,4 +14,28 @@
 <h3>For example:</h3>
 <pre>solve("coDe") = "code". Lowercase characters > uppercase. Change only the "D" to lowercase.</pre>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function solve(&nbsp;'CODe'&nbsp;)</pre>
+
+<p>The function will return the following string: &nbsp;<strong><em>'CODE'</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function solve(&nbsp;'COde'&nbsp;)</pre>
+
+<p>The function will return the following string: &nbsp;<strong><em>'code'</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>function solve(&nbsp;'abcdefghijklmnopqrstuABCDEFGHIJKLMNOPQRSTU'&nbsp;)</pre>
+
+<p>The function will return the following string: &nbsp;<strong><em>'abcdefghijklmnopqrstuabcdefghijklmnopqrstu'</em></strong></p>
+
 </div>
