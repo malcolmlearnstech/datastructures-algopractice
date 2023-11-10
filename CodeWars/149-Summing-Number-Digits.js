@@ -5,7 +5,18 @@ function sumDigits(number) {
     .toString()
     .split('')
     .map((element) => Number(element));
+
   array.map((element) => (sum += element));
 
   return sum;
 }
+
+/*
+REFACTORED SOLUTION -
+
+As we are converting the string digits elements to 
+integers/numbers in the map method, we can also add 
+and store their value to sum within the method chain. 
+This would eliminate having to perform the "map" 
+method twice.
+*/
