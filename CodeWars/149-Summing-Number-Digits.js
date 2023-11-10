@@ -20,3 +20,14 @@ and store their value to sum within the method chain.
 This would eliminate having to perform the "map" 
 method twice.
 */
+
+function sumDigits(number) {
+  let sum = 0;
+
+  Math.abs(number)
+    .toString()
+    .split('')
+    .map((element) => (sum += Number(element)));
+
+  return sum;
+}
