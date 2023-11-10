@@ -40,3 +40,13 @@ the "reduce" method to our method chain, which will
 allow for adding each element in the array created 
 to a "0" initialValue.
 */
+
+function sumDigits(number) {
+  return Math.abs(number)
+    .toString()
+    .split('')
+    .reduce(
+      (accumulator, currentValue) => accumulator + Number(currentValue),
+      0
+    );
+}
