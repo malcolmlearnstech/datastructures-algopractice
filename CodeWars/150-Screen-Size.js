@@ -7,3 +7,12 @@ function findScreenHeight(width, ratio) {
 
   return string;
 }
+
+/*
+REFACTORED SOLUTION -
+
+Rather than create a new variable then adding each of the 
+calculated numbers to the created variable string, we can 
+set the function up to return a template literal. This 
+will also decrease our space complexity.
+*/
