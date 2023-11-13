@@ -1,0 +1,1 @@
+function findScreenHeight(width, ratio) {}
