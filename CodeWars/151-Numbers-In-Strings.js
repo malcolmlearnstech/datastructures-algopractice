@@ -19,3 +19,17 @@ returns some empty strings, we can employ filter to
 ensure that we are mapping thru an array of only number 
 strings.
 */
+
+function solve(s) {
+  let max = 0;
+
+  s.split(/[a-z]/g)
+    .filter((element) => element !== '')
+    .map((element) => {
+      if (element > max) {
+        max = Number(element);
+      }
+    });
+
+  return max;
+}
