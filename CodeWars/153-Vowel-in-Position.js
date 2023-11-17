@@ -4,3 +4,11 @@ function checkVowel(string, position) {
   }
   return string[position].match(/[aeiou]/gi) ? true : false;
 }
+
+/*
+REFACTOR SOLUTION -
+
+Alternative to match method, we can type out all vowels 
+(upper & lower case) in a string and use the includes 
+method instead.
+*/
