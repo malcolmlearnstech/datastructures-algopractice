@@ -33,6 +33,6 @@
 <pre>function checkVowel(&nbsp;'cat', 4&nbsp;)</pre>
 
 <p>The function will return the following result: &nbsp;<strong><em>false</em></strong></p>
-<p>this postion does not exist</p>
+<em><p>this postion does not exist</p></em>
 
 </div>
