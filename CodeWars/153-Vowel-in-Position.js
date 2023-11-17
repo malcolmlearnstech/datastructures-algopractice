@@ -1,0 +1,1 @@
+function checkVowel(string, position) {}
