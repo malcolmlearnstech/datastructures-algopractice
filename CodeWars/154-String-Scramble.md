@@ -16,4 +16,28 @@
 
 <h4><sup>*</sup>You can assume that you will be given a string and array of equal length and both containing valid characters (A-Z, a-z, or 0-9).</h4>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function scramble(&nbsp;'abcd', [0,3,1,2]&nbsp;)</pre>
+
+<p>The function should return the following string: &nbsp;<strong><em>"acdb"</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function scramble(&nbsp;'sc301s', [4,0,3,1,5,2]&nbsp;)</pre>
+
+<p>The function should return the following string: &nbsp;<strong><em>"c0s3s1"</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>function scramble(&nbsp;'bskl5', [2,1,4,3,0]&nbsp;)</pre>
+
+<p>The function should return the following string: &nbsp;<strong><em>"5sblk"</em></strong></p>
+
 </div>
