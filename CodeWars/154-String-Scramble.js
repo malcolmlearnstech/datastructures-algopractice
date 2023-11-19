@@ -16,3 +16,9 @@ each character from the input string "str" will exist.
 Then we only have to use the join method at the end of 
 our function.
 */
+
+function scramble(str, arr) {
+  let string = [];
+  arr.map((element, index) => (string[element] = str[index]));
+  return string.join('');
+}
