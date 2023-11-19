@@ -1,0 +1,1 @@
+function scramble(str, arr) {}
