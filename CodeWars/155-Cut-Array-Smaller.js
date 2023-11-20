@@ -28,3 +28,12 @@ within the for loop, we can increment by the chunkSize and
 employ the slice method. Slice method will create its own 
 subarrays to push into our final output array.
 */
+
+function makeParts(arr, chunkSize) {
+  let array = [];
+
+  for (let i = 0; i < arr.length; i += chunkSize) {
+    array.push(arr.slice(i, i + chunkSize));
+  }
+  return array;
+}
