@@ -17,3 +17,14 @@ function makeParts(arr, chunkSize) {
   }
   return array;
 }
+
+/*
+
+REFACTORED SOLUTION - 
+
+Instead of checking for the size of input "arr" in comparison 
+to input "chunkSize" and building subarrays element by element; 
+within the for loop, we can increment by the chunkSize and 
+employ the slice method. Slice method will create its own 
+subarrays to push into our final output array.
+*/
