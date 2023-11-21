@@ -31,3 +31,20 @@ Using sort method will naturally place the larger number
 at the end of the array, removing the need to check if 
 more than one number has the same frequency count.
 */
+
+function highestRank(arr) {
+  let frequency = {};
+
+  for (let i = 0; i < arr.length; i++) {
+    let element = arr[i];
+    if (!frequency[element]) {
+      frequency[element] = 1;
+    } else frequency[element]++;
+  }
+
+  return Number(
+    Object.entries(frequency).sort((a, b) => a[1] - b[1])[
+      Object.entries(frequency).length - 1
+    ][0]
+  );
+}
