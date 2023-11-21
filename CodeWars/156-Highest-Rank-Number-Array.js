@@ -20,3 +20,14 @@ function highestRank(arr) {
 
   return highestCount.length <= 1 ? highestCount[0] : Math.max(...highestCount);
 }
+
+/*
+
+REFACTORED SOLUTION -
+
+Alternative to using the for in loop of the "frequency" 
+object, we can sort the entries in ascending order. 
+Using sort method will naturally place the larger number 
+at the end of the array, removing the need to check if 
+more than one number has the same frequency count.
+*/
