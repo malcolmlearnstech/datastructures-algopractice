@@ -25,3 +25,13 @@ var isAnagram = function (test, original) {
   }
   return true;
 };
+
+/*
+
+REFACTORED SOLUTION -
+
+Instead of storing the frequency count then comparing 
+the values in objects, we can sort the "test" and "original" 
+inputs and iterate through either array and compare the 
+elements to check for inconsistencies.
+*/
