@@ -58,3 +58,10 @@ Alternative to iterating thru the arrays, we
 can employ the "join" method and compare the 
 strings directly.
 */
+
+var isAnagram = function (test, original) {
+  test = test.toLowerCase().split('').sort().join('');
+  original = original.toLowerCase().split('').sort().join('');
+
+  return test === original ? true : false;
+};
