@@ -27,7 +27,6 @@ var isAnagram = function (test, original) {
 };
 
 /*
-
 REFACTORED SOLUTION -
 
 Instead of storing the frequency count then comparing 
@@ -51,3 +50,11 @@ var isAnagram = function (test, original) {
   }
   return true;
 };
+
+/*
+SECOND REFACTORED SOLUTION -
+
+Alternative to iterating thru the arrays, we 
+can employ the "join" method and compare the 
+strings directly.
+*/
