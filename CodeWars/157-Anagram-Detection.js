@@ -35,3 +35,19 @@ the values in objects, we can sort the "test" and "original"
 inputs and iterate through either array and compare the 
 elements to check for inconsistencies.
 */
+
+var isAnagram = function (test, original) {
+  test = test.toLowerCase().split('').sort();
+  original = original.toLowerCase().split('').sort();
+
+  if (test.length !== original.length) {
+    return false;
+  } else {
+    for (let i = 0; i < test.length; i++) {
+      if (test[i] !== original[i]) {
+        return false;
+      }
+    }
+  }
+  return true;
+};
