@@ -8,3 +8,12 @@ function filterEvenLengthWords(words) {
   });
   return array;
 }
+
+/*
+REFACTORED SOLUTION -
+
+Instead of creating a new variable and slightly increasing 
+space complexity, we can make use of the filter method in 
+our return; while using the given condition from the problem 
+as our filtering rule.
+*/
