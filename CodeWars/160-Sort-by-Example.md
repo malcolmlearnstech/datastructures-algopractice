@@ -18,4 +18,28 @@
 
 <h4>Result: [4,4,4,4,1,3,5]</h4>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function exampleSort(&nbsp;[1,2,3,4,5], [2,3,4,1,5]&nbsp;)</pre>
+
+<p>The function should return the following array: &nbsp;<strong><em>[2, 3, 4, 1, 5]</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function exampleSort(&nbsp;[1,2,3,3,3,4,5], [2,3,4,1,5]&nbsp;)</pre>
+
+<p>The function should return the following array: &nbsp;<strong><em>[2, 3, 3, 3, 4, 1, 5]</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>function exampleSort(&nbsp;[1,2,3,3,3,5], [2,3,4,1,5]&nbsp;)</pre>
+
+<p>The function should return the following array: &nbsp;<strong><em>[2, 3, 3, 3, 1, 5]</em></strong></p>
+
 </div>
