@@ -22,3 +22,11 @@ number of characters from the front because we have access to the
 "index" paramter from our mapping thru the generated array of input 
 "str"s length.
 */
+
+function reverseSlice(str) {
+  let result = Array(str.length).fill(0);
+
+  return result.map((element, index) =>
+    str.split('').reverse().join('').slice(index)
+  );
+}
