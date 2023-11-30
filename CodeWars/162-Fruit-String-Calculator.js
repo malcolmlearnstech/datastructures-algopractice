@@ -21,3 +21,17 @@ dictates). We can then declare a "math" variable then
 place all elements of our mathematic string in a template 
 literally with the "eval" function wrapped around it.
 */
+
+function calculate(string) {
+  string = string.split(' ');
+  let nums = string.filter((element) => element.match(/[\d]/g));
+  let math;
+
+  if (string.includes('gains')) {
+    math = '+';
+  } else if (string.includes('loses')) {
+    math = '-';
+  }
+
+  return eval(`${nums[0]} ${math} ${nums[1]}`);
+}
