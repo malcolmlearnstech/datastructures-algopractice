@@ -1,0 +1,1 @@
+function mostFrequentItemCount(collection) {}
