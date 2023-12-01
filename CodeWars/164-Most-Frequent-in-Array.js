@@ -13,3 +13,12 @@ function mostFrequentItemCount(collection) {
 
   return Math.max(...Object.values(object));
 }
+
+/*
+REFACTORED SOLUTION - 
+
+To clean up part of and shorten our code, we can 
+employ a ternary operator as an alternative the 
+multi-line set up of the if/else conditional portion 
+of our code.
+*/
