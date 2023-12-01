@@ -22,3 +22,17 @@ employ a ternary operator as an alternative the
 multi-line set up of the if/else conditional portion 
 of our code.
 */
+
+function mostFrequentItemCount(collection) {
+  let object = {};
+
+  if (collection.length == 0) {
+    return 0;
+  } else {
+    collection.map((element) =>
+      !object[element] ? (object[element] = 1) : object[element]++
+    );
+  }
+
+  return Math.max(...Object.values(object));
+}
