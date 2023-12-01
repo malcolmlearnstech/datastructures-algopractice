@@ -25,7 +25,7 @@
 
 <pre>function stringTransformer(&nbsp;'Example string'&nbsp;)</pre>
 
-<p>The function should return the following array: &nbsp;<strong><em>'STRING eXAMPLE'</em></strong></p>
+<p>The function should return the following string: &nbsp;<strong><em>'STRING eXAMPLE'</em></strong></p>
 
 <br>
 
@@ -33,7 +33,7 @@
 
 <pre>function stringTransformer(&nbsp;'To be OR not to be That is the Question'&nbsp;)</pre>
 
-<p>The function should return the following array: &nbsp;<strong><em>'qUESTION THE IS tHAT BE TO NOT or BE tO'</em></strong></p>
+<p>The function should return the following string: &nbsp;<strong><em>'qUESTION THE IS tHAT BE TO NOT or BE tO'</em></strong></p>
 
 <br>
 
@@ -41,6 +41,6 @@
 
 <pre>function stringTransformer(&nbsp;'A b C d E f G'&nbsp;)</pre>
 
-<p>The function should return the following array: &nbsp;<strong><em>'g F e D c B a'</em></strong></p>
+<p>The function should return the following string: &nbsp;<strong><em>'g F e D c B a'</em></strong></p>
 
 </div>

@@ -23,7 +23,7 @@
 
 <pre>function calculate(&nbsp;'Panda has 48 apples and loses 4'&nbsp;)</pre>
 
-<p>The function should return the following array: &nbsp;<strong><em>4</em></strong></p>
+<p>The function should return the following result: &nbsp;<strong><em>4</em></strong></p>
 
 <br>
 
@@ -31,7 +31,7 @@
 
 <pre>function calculate(&nbsp;'Fred has 110 bananas and loses 50'&nbsp;)</pre>
 
-<p>The function should return the following array: &nbsp;<strong><em>60</em></strong></p>
+<p>The function should return the following result: &nbsp;<strong><em>60</em></strong></p>
 
 <br>
 
@@ -39,6 +39,6 @@
 
 <pre>function calculate(&nbsp;'Nebula has 55 pears and loses 19'&nbsp;)</pre>
 
-<p>The function should return the following array: &nbsp;<strong><em>36</em></strong></p>
+<p>The function should return the following result: &nbsp;<strong><em>36</em></strong></p>
 
 </div>
