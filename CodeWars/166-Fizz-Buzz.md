@@ -15,4 +15,20 @@
 
 <h3>N will never be less than 1.</h3>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function fizzbuzz(&nbsp;3&nbsp;)</pre>
+
+<p>The function should return the following array: &nbsp;<strong><em>[&nbsp;1, 2, "Fizz"&nbsp;]</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function fizzbuzz(&nbsp;10&nbsp;)</pre>
+
+<p>The function should return the following array: &nbsp;<strong><em>[&nbsp;1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz'&nbsp;]</em></strong></p>
+
 </div>
