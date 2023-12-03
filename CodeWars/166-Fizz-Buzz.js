@@ -49,3 +49,17 @@ still employ map method and make use of "index" with a 1 added due
 to the challenge prompt indicating that the number set will always begin 
 with 1.
 */
+
+function fizzbuzz(n) {
+  let array = Array(n).fill(0);
+
+  return array.map((e, i) =>
+    (i + 1) % 3 === 0 && (i + 1) % 5 === 0
+      ? 'FizzBuzz'
+      : (i + 1) % 3 === 0
+      ? 'Fizz'
+      : (i + 1) % 5 === 0
+      ? 'Buzz'
+      : i + 1
+  );
+}
