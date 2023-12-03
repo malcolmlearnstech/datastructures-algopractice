@@ -20,3 +20,21 @@ leading up to "n", then map thru the elements, only needing
 to edit or change the array elements that meet the conditions 
 mentioned in the challenge prompt.
 */
+
+function fizzbuzz(n) {
+  let array = [];
+
+  for (let i = 1; i <= n; i++) {
+    array.push(i);
+  }
+
+  return array.map((e) =>
+    e % 3 === 0 && e % 5 === 0
+      ? 'FizzBuzz'
+      : e % 3 === 0
+      ? 'Fizz'
+      : e % 5 === 0
+      ? 'Buzz'
+      : e
+  );
+}
