@@ -11,3 +11,12 @@ function fizzbuzz(n) {
   }
   return array;
 }
+
+/*
+REFACTORED SOLUTION - 
+
+Alternatively, we can build out the array with the numbers 
+leading up to "n", then map thru the elements, only needing 
+to edit or change the array elements that meet the conditions 
+mentioned in the challenge prompt.
+*/
