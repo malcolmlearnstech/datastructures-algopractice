@@ -38,3 +38,14 @@ function fizzbuzz(n) {
       : e
   );
 }
+
+/*
+SECOND REFACTORED SOLUTION - 
+
+We can still build out an array without the use of the for loop 
+used in the previous refactor, making use of Array with fill method 
+appended. To account for the evaluating the actual numbers, we can 
+still employ map method and make use of "index" with a 1 added due 
+to the challenge prompt indicating that the number set will always begin 
+with 1.
+*/
