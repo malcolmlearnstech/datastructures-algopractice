@@ -25,3 +25,14 @@ the input array. While mapping, we check for the position
 of current element and check to see if it is only in one 
 position of the array.
 */
+
+function repeats(arr) {
+  let num = 0;
+
+  arr.map((element) => {
+    if (arr.indexOf(element) === arr.lastIndexOf(element)) {
+      num += element;
+    }
+  });
+  return num;
+}
