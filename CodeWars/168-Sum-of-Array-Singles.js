@@ -16,7 +16,7 @@ function repeats(arr) {
 }
 
 /*
-SECOND REFACTORED SOLUTION - 
+REFACTORED SOLUTION - 
 
 Instead of creating an object that will hold information 
 and need to be mapped thru (increasing time complexity), 
@@ -36,3 +36,12 @@ function repeats(arr) {
   });
   return num;
 }
+
+/*
+SECOND REFACTORED SOLUTION - 
+
+Using the condition from within the refactor's map, we 
+can redefine the input array with a filter singling out 
+only the elements that appear once. THEN we can map and 
+add the two numbers to a zero initialized variable.
+*/
