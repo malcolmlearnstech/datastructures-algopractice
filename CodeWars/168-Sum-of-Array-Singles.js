@@ -45,3 +45,12 @@ can redefine the input array with a filter singling out
 only the elements that appear once. THEN we can map and 
 add the two numbers to a zero initialized variable.
 */
+
+function repeats(arr) {
+  let num = 0;
+  arr = arr.filter(
+    (element) => arr.indexOf(element) === arr.lastIndexOf(element)
+  );
+  arr.map((element) => (num += element));
+  return num;
+}
