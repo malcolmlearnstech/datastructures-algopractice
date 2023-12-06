@@ -14,3 +14,14 @@ function repeats(arr) {
   }
   return num;
 }
+
+/*
+SECOND REFACTORED SOLUTION - 
+
+Instead of creating an object that will hold information 
+and need to be mapped thru (increasing time complexity), 
+we can keep the number that will be added to and map thru 
+the input array. While mapping, we check for the position 
+of current element and check to see if it is only in one 
+position of the array.
+*/
