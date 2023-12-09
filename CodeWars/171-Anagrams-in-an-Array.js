@@ -21,3 +21,14 @@ function anagramCounter(wordsArray) {
   }
   return anagrams;
 }
+
+/*
+
+REFACTORED SOLUTION -
+
+Alternative to doing two while loops with a two pointer 
+method, we can partly mimic this behavior by using the forEach 
+method. We can use the for loop to move thru the rest of the 
+elements of the array to compare to each element currently 
+iterated on by the forEach.
+*/
