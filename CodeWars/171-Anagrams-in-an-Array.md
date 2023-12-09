@@ -10,4 +10,28 @@
 
 <h3>Write a function that receives an array of words, and returns the total number of distinct pairs of anagramic words inside it.</h3>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function anagramCounter&nbsp;(&nbsp;['dell', 'ledl', 'abc', 'cba']&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>2</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function anagramCounter&nbsp;(&nbsp;['dell', 'ledl', 'lled', 'cba']&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>3</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>function anagramCounter&nbsp;(&nbsp;['dell', 'ledl', 'abc', 'cba', 'bca', 'bac', 'cab']&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>11</em></strong></p>
+
 </div>
