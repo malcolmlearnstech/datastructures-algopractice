@@ -32,3 +32,20 @@ method. We can use the for loop to move thru the rest of the
 elements of the array to compare to each element currently 
 iterated on by the forEach.
 */
+
+function anagramCounter(wordsArray) {
+  let anagrams = 0;
+  wordsArray = wordsArray.map((element) =>
+    element.toLowerCase().split('').sort().join('')
+  );
+
+  wordsArray.forEach((word, index) => {
+    for (let i = index + 1; i < wordsArray.length; i++) {
+      if (word === wordsArray[i]) {
+        anagrams++;
+      }
+    }
+  });
+
+  return anagrams;
+}
