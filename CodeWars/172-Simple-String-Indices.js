@@ -27,3 +27,24 @@ count of opening/closing brackets. We will then return the
 index of the necessary closing bracket at the very end of 
 our overall function, not within the scope of the loop itself.
 */
+
+function solve(str, idx) {
+  let notation = 0;
+
+  if (str[idx] !== '(') {
+    return -1;
+  } else {
+    notation = 1;
+
+    while (notation !== 0) {
+      idx++;
+
+      if (str[idx] === '(') {
+        notation++;
+      } else if (str[idx] === ')') {
+        notation--;
+      }
+    }
+  }
+  return idx;
+}
