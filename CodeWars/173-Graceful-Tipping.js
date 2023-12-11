@@ -32,3 +32,12 @@ and multiply by. We make use of the Math.pow method, then
 multiply by 5 as the rounding indicated in the challenge prompt 
 increases by powers 5 times exponential 10.
 */
+
+function gracefulTipping(bill) {
+  let final = bill + bill * 0.15;
+  let multiplier = Math.ceil(
+    5 * Math.pow(10, Math.floor(Math.log10(final) - 1))
+  );
+
+  return Math.ceil(final / multiplier) * multiplier;
+}
