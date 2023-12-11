@@ -21,3 +21,14 @@ function gracefulTipping(bill) {
     return Math.ceil(final / 50000000) * 50000000;
   }
 }
+
+/*
+REFACTORED SOLUTION - 
+
+Obviously building out all conditionals to reach the amounts 
+given in the test cases DOES work, but its inconvenient. A more 
+programmatic approach is to figure out how many zeros to divide 
+and multiply by. We make use of the Math.pow method, then 
+multiply by 5 as the rounding indicated in the challenge prompt 
+increases by powers 5 times exponential 10.
+*/
