@@ -25,3 +25,14 @@ copy of both arrays, which keep them from being two
 dimensional, then apply the join method, as all elements will 
 be held in a single dimensional array.
 */
+
+function reOrdering(text) {
+  text = text.split(' ');
+
+  let first = text.filter((element) => element[0] === element[0].toUpperCase());
+  let second = text.filter(
+    (element) => element[0] !== element[0].toUpperCase()
+  );
+
+  return [...first, ...second].join(' ');
+}
