@@ -19,4 +19,30 @@
 
 <h3>Good luck!</h3>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function gracefulTipping&nbsp;(&nbsp;1.09&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>2</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function gracefulTipping&nbsp;(&nbsp;11.99&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>15</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>function gracefulTipping&nbsp;(&nbsp;86&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>100</em></strong></p>
+
+<br>
+
 </div>
