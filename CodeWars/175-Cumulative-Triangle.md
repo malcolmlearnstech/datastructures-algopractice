@@ -17,4 +17,28 @@
 
 <h3>Given N, return the sum of all numbers on the Nth Row: &nbsp;1 &nbsp;<=&nbsp; N &nbsp;<=&nbsp; 10,000</h3>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function cumulativeTriangle&nbsp;(&nbsp;2&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>5</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function cumulativeTriangle&nbsp;(&nbsp;3&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>15</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>function cumulativeTriangle&nbsp;(&nbsp;4&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>34</em></strong></p>
+
 </div>
