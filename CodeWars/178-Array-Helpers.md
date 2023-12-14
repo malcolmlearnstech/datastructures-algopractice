@@ -20,4 +20,18 @@
 
 <em>\*Note: the original array must not be changed in any case!</em>
 
+<br>
+
+<h3>Example:</h3>
+
+<pre>
+var numbers = [1, 2, 3, 4, 5];
+
+numbers.square() would return: <strong><em>[1, 4, 9, 16, 25]</em></strong>
+numbers.cube() would return: <strong><em>[1, 8, 27, 64, 125]</em></strong>
+numbers.average() would return: <strong><em>3</em></strong>
+numbers.sum() would return: <strong><em>15</em></strong>
+numbers.even() would return: <strong><em>[2, 4,]</em></strong>
+numbers.odd() would return: <strong><em>[1, 3, 5]</em></strong>
+</pre>
 </div>
