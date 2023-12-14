@@ -11,3 +11,9 @@ Array.prototype.sum = function () {
   this.map((element) => (sum += element));
   return sum;
 };
+
+Array.prototype.average = function () {
+  let sum = 0;
+  this.map((element) => (sum += element));
+  return sum / this.length;
+};
