@@ -17,3 +17,7 @@ Array.prototype.average = function () {
   this.map((element) => (sum += element));
   return sum / this.length;
 };
+
+Array.prototype.even = function () {
+  return this.filter((element) => element % 2 === 0);
+};
