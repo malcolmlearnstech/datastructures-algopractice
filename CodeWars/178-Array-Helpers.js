@@ -21,3 +21,7 @@ Array.prototype.average = function () {
 Array.prototype.even = function () {
   return this.filter((element) => element % 2 === 0);
 };
+
+Array.prototype.odd = function () {
+  return this.filter((element) => element % 2 !== 0);
+};
