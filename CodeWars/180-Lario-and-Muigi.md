@@ -14,4 +14,28 @@
 <h3>Task</h3>
 <h4>Given a list of unique <em>numbers</em> sorted in ascending order, return a new list so that the values increment by 1 for each index from the minimum value up to the maximum value (both included).</h4>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function pipeFix&nbsp;(&nbsp;[1, 2, 3, 5, 6, 8, 9]&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>[1, 2, 3, 4, 5, 6, 7, 8, 9]</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function pipeFix&nbsp;(&nbsp;[6, 9]&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>[6, 7, 8, 9]</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>function pipeFix&nbsp;(&nbsp;[-1,4]&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>[-1, 0, 1, 2, 3, 4]</em></strong></p>
+
 </div>
