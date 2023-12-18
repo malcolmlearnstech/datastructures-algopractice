@@ -1,0 +1,1 @@
+var encryptThis = function (text) {};
