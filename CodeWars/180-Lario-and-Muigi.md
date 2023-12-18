@@ -20,7 +20,7 @@
 
 <pre>function pipeFix&nbsp;(&nbsp;[1, 2, 3, 5, 6, 8, 9]&nbsp;)</pre>
 
-<p>The function should return the following result: &nbsp;<strong><em>[1, 2, 3, 4, 5, 6, 7, 8, 9]</em></strong></p>
+<p>The function should return the following result: &nbsp;<strong><em>[&nbsp;1, 2, 3, 4, 5, 6, 7, 8, 9&nbsp;]</em></strong></p>
 
 <br>
 
@@ -28,14 +28,14 @@
 
 <pre>function pipeFix&nbsp;(&nbsp;[6, 9]&nbsp;)</pre>
 
-<p>The function should return the following result: &nbsp;<strong><em>[6, 7, 8, 9]</em></strong></p>
+<p>The function should return the following result: &nbsp;<strong><em>[&nbsp;6, 7, 8, 9&nbsp;]</em></strong></p>
 
 <br>
 
 <h3>Example 3:</h3>
 
-<pre>function pipeFix&nbsp;(&nbsp;[-1,4]&nbsp;)</pre>
+<pre>function pipeFix&nbsp;(&nbsp;[-1, 4]&nbsp;)</pre>
 
-<p>The function should return the following result: &nbsp;<strong><em>[-1, 0, 1, 2, 3, 4]</em></strong></p>
+<p>The function should return the following result: &nbsp;<strong><em>[&nbsp;-1, 0, 1, 2, 3, 4&nbsp;]</em></strong></p>
 
 </div>
