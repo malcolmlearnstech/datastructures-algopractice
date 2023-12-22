@@ -46,3 +46,13 @@ SECOND REFACTORED SOLUTION -
 Within our loop, instead of the if/else condtional, we can set 
 up the same condition and actions as a ternary operation.
 */
+
+function remove(str, what) {
+  let result = '';
+
+  str.split('').map((element) => {
+    what[element] ? what[element]-- : (result += element);
+  });
+
+  return result;
+}
