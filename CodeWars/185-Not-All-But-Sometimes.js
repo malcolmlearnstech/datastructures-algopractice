@@ -39,3 +39,10 @@ function remove(str, what) {
 
   return result;
 }
+
+/*
+SECOND REFACTORED SOLUTION -
+
+Within our loop, instead of the if/else condtional, we can set 
+up the same condition and actions as a ternary operation.
+*/
