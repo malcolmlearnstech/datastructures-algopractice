@@ -27,3 +27,15 @@ letters that are not keys in the "what" object still get added. These
 letters are all added to a result variable that is intialized as an 
 empty string.
 */
+
+function remove(str, what) {
+  let result = '';
+
+  str.split('').map((element) => {
+    if (what[element]) {
+      what[element]--;
+    } else result += element;
+  });
+
+  return result;
+}
