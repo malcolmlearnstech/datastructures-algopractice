@@ -14,13 +14,13 @@
 
 <pre>
 remove('this is a string',{'t':1, 'i':2}) === 'hs s a string'
-<em>remove from 'this is a string' the first 1 't' and the first 2 i's.</em>
+(<em>remove from 'this is a string' the first 't' and the first 2 i's.</em>)
 
 remove('hello world',{'x':5, 'i':2}) === 'hello world'
-<em>there are no x's or i's, so nothing gets removed</em>
+(<em>there are no x's or i's, so nothing gets removed</em>)
 
 remove('apples and bananas',{'a':50, 'n':1}) === 'pples d bnns'
-<em>we don't have 50 a's, so just remove it till we hit end of string.</em>
+(<em>we don't have 50 a's, so just remove it till we hit end of string.</em>)
 </pre>
 
 </div>
