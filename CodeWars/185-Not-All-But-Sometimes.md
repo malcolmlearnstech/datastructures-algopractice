@@ -23,4 +23,28 @@ remove('apples and bananas',{'a':50, 'n':1}) === 'pples d bnns'
 (<em>we don't have 50 a's, so just remove it till we hit end of string.</em>)
 </pre>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function remove&nbsp;(&nbsp;'this is a string', {'t':1, 'i':2}&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>'hs s a string'</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function remove&nbsp;(&nbsp;'apples and bananas', {'a':50, 'n':1}&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>'pples d bnns'</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>function remove&nbsp;(&nbsp;'codewars', {'c':5, 'o':1, 'd':1, 'e':1, 'w':1, 'z':1, 'a':1, 'r':1, 's':1}&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>''</em></strong></p>
+
 </div>
