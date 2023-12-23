@@ -40,3 +40,10 @@ function digitsAverage(input) {
   }
   return Number(input.join(''));
 }
+
+/*
+SECOND REFACTORED SOLUTION -
+
+Within the for-loop, we store the two numbers used for calculating the 
+average in variables ("firstNum" & "secondNum") for better readability.
+*/
