@@ -47,3 +47,21 @@ SECOND REFACTORED SOLUTION -
 Within the for-loop, we store the two numbers used for calculating the 
 average in variables ("firstNum" & "secondNum") for better readability.
 */
+
+function digitsAverage(input) {
+  input = input.toString().split('');
+
+  while (input.length > 1) {
+    let tier = [];
+
+    for (let i = 0; i < input.length - 1; i++) {
+      let firstNum = Number(input[i]);
+      let secondNum = Number(input[i + 1]);
+
+      tier.push(Math.ceil((firstNum + secondNum) / 2));
+    }
+
+    input = tier;
+  }
+  return Number(input.join(''));
+}
