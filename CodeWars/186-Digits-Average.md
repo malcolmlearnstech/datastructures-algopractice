@@ -19,4 +19,29 @@ digitsAverage(246)  ==>  4
  \ /
  4
 </pre>
+
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function digitsAverage&nbsp;(&nbsp;246&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>4</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function digitsAverage&nbsp;(&nbsp;345&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>5</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>function digitsAverage&nbsp;(&nbsp;89&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>9</em></strong></p>
+
 </div>
