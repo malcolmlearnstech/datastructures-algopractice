@@ -11,3 +11,13 @@ function timeConvert(num) {
 
   return `${hours}:${mins}`;
 }
+
+/*
+REFACTORED SOLUTION -
+
+We can alternatively set up our solution as a ternary operator, placing 
+the result of the conditional the first expression to execute with the 
+rest of the initial solution as the second expression to execute. Within 
+the second expression, we can make use of the padStart method to add any 
+necessary zeros instead.
+*/
