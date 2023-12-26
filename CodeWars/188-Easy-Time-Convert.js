@@ -21,3 +21,11 @@ rest of the initial solution as the second expression to execute. Within
 the second expression, we can make use of the padStart method to add any 
 necessary zeros instead.
 */
+
+function timeConvert(num) {
+  return num < 0
+    ? '00:00'
+    : `${Math.floor(num / 60)}`.padStart(2, '0') +
+        ':' +
+        `${num % 60}`.padStart(2, '0');
+}
