@@ -15,4 +15,28 @@
 <h3>Written Example:</h3>
 <em><p>If the input is <strong>78</strong>, then you should return <strong>"01:18"</strong>, because <strong>78</strong> minutes converts to <strong>1 hour and 18 minutes</strong>.</p></em>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function timeConvert&nbsp;(&nbsp;8&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>'00:08'</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function timeConvert&nbsp;(&nbsp;134&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>'02:14'</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>function timeConvert&nbsp;(&nbsp;970&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>'16:10'</em></strong></p>
+
 </div>
