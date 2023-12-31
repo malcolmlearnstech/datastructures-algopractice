@@ -1,0 +1,1 @@
+function readOut(acrostic) {}
