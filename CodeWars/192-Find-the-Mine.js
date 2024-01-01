@@ -24,3 +24,13 @@ and "j" counts that are implemented in the expressions of both for-loops. They c
 both also be used to directly access elements needed to check within the built out 
 conditionals. This may potentially slightly decrease the space complexity.
 */
+
+function mineLocation(field) {
+  for (let i = 0; i < field.length; i++) {
+    for (let j = 0; j < field[i].length; j++) {
+      if (field[i][j] === 1) {
+        return [i, j];
+      }
+    }
+  }
+}
