@@ -14,3 +14,13 @@ function mineLocation(field) {
     row++;
   }
 }
+
+/*
+REFACTORED SOLUTION -
+
+We don't have to use the "column" and "row" variables and having to increment/reset 
+them within the scope of their loops. We can instead, directly use the respective "i" 
+and "j" counts that are implemented in the expressions of both for-loops. They can 
+both also be used to directly access elements needed to check within the built out 
+conditionals. This may potentially slightly decrease the space complexity.
+*/
