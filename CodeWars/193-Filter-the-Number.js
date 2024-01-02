@@ -19,3 +19,12 @@ are manipulating on the input, we employ the join() method to bring the number
 elements back together. We can then use either Number() or parseInt() to return 
 our final value as a number.
 */
+
+var filterString = function (value) {
+  return Number(
+    value
+      .split('')
+      .filter((element) => element.match(/[^a-zA-Z]/g))
+      .join('')
+  );
+};
