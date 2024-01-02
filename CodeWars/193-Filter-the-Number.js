@@ -1,0 +1,1 @@
+var filterString = function (value) {};
