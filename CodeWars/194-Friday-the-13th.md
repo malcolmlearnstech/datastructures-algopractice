@@ -19,4 +19,28 @@ var jason = 7;
 
 <h3>Happy Friday the 13th!</h3>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function killCount&nbsp;(&nbsp;[ [ 'Tiffany', 4 ], [ 'Jack', 6 ], [ 'Megan', 7 ],[ 'Tyler', 3 ] ], 6&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>[ 'Tiffany', &nbsp;'Tyler' ]</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function killCount&nbsp;(&nbsp;[ [ 'Tiffany', 4 ], [ 'Jack', 6 ], [ 'Megan', 7 ],[ 'Tyler', 3 ] ], 7&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>[ 'Tiffany', &nbsp;'Jack', &nbsp;'Tyler' ]</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>function killCount&nbsp;(&nbsp;[ [ 'Mike', 7 ], [ 'Alysa', 3 ] ], 7&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>[ &nbsp;'Alysa'&nbsp; ]</em></strong></p>
+
 </div>
