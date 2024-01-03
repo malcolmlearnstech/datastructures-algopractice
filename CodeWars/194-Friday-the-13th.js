@@ -1,0 +1,1 @@
+function killCount(counselors, jason) {}
