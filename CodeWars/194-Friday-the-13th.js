@@ -8,3 +8,12 @@ function killCount(counselors, jason) {
   }
   return survivors;
 }
+
+/*
+REFACTORED SOLUTION -
+
+We can alternatively build out and object holding all of the applicable counselors 
+and their intelligence as key/value pairs. Once built, we simply use the 
+Object.keys() method to return all of the counselor name keys in an array.
+
+*/
