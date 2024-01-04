@@ -17,3 +17,24 @@ allowing us to push the elements within the values to an "orderedString" array.
 Lastly, we return the newly ordered string from the "orderedString" array, using 
 the join() method.
 */
+
+function longer(s) {
+  let orderedString = [];
+  let lengths = {};
+
+  s.split(' ').map((element) => {
+    if (!lengths[element.length]) {
+      lengths[element.length] = [element];
+    } else {
+      lengths[element.length].push(element);
+    }
+  });
+
+  for (const key in lengths) {
+    if (lengths[key].length > 1) {
+      lengths[key].sort().map((element) => orderedString.push(element));
+    } else orderedString.push(lengths[key][0]);
+  }
+
+  return orderedString.join(' ');
+}
