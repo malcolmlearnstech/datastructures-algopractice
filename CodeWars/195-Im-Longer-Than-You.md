@@ -14,4 +14,28 @@
 longer("hello Hello") => Hello hello
 </pre>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function longer&nbsp;(&nbsp;"Another Green World"&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>"Green World Another"</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function longer&nbsp;(&nbsp;"Darkness on the edge of Town"&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>"of on the Town edge Darkness"</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>function longer&nbsp;(&nbsp;"This will be our Year"&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>"be our This Year will"</em></strong></p>
+
 </div>
