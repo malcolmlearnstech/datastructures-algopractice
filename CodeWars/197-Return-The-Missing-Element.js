@@ -27,3 +27,11 @@ check if the number we're currently iterating is included in the input array.
 Which ever number that returns false is the number we will return at the end 
 of our function.
 */
+
+function getMissingElement(superImportantArray) {
+  for (let i = 0; i < 10; i++) {
+    if (!superImportantArray.includes(i)) {
+      return i;
+    }
+  }
+}
