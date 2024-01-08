@@ -12,4 +12,22 @@
 
 <h3>Write a function that accepts a sequence of unique integers between 0 and 9 (inclusive), and returns the missing element.</h3>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function getMissingElement&nbsp;(&nbsp;[&nbsp;0, 5, 1, 3, 2, 9, 7, 6, 4&nbsp;]&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>8</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function getMissingElement&nbsp;(&nbsp;[&nbsp;9, 2, 4, 5, 7, 0, 8, 6, 1&nbsp;]&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>3</em></strong></p>
+
+<br>
+
 </div>
