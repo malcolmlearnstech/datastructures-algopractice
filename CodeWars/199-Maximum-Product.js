@@ -7,3 +7,12 @@ function adjacentElementsProduct(array) {
 
   return max;
 }
+
+/*
+REFACTORED SOLUTION -
+
+Instead of running the Math.max() method for each iteration of the for-loop, 
+we can use for-loop to push each product to an empty array. Once we reach the 
+end of our for-loop, we only have to apply the Math.max() method once to find 
+and return the greatest product from the list of potential products.
+*/
