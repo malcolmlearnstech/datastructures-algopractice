@@ -16,3 +16,12 @@ we can use for-loop to push each product to an empty array. Once we reach the
 end of our for-loop, we only have to apply the Math.max() method once to find 
 and return the greatest product from the list of potential products.
 */
+
+function adjacentElementsProduct(array) {
+  let multiples = [];
+
+  for (let i = 0; i < array.length - 1; i++) {
+    multiples.push(array[i] * array[i + 1]);
+  }
+  return Math.max(...multiples);
+}
