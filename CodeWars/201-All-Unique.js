@@ -13,3 +13,9 @@ function hasUniqueChars(str) {
 
   return frequency.every(isOne) ? true : false;
 }
+
+/*
+REFACTORED SOLUTION - 
+
+Because the .every() method inherently returns true or false, using a ternary is not necessary.
+*/
