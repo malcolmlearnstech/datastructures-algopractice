@@ -10,3 +10,12 @@ var splitInParts = function (s, partLength) {
 
   return array.join(' ');
 };
+
+/*
+REFACTORED SOLUTION -
+
+Instead of making a variable holding the slice, we can employ the splice 
+method within the array push and then use join method. This would take a 
+chunk of the string while also manipulating the original array and save 
+us two steps.
+*/
