@@ -16,4 +16,28 @@
 <h5>• Size is always positive</h5>
 </em>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function splitInParts&nbsp;(&nbsp;"supercalifragilisticexpialidocious", 3&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>"sup erc ali fra gil ist ice xpi ali doc iou s"</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function splitInParts&nbsp;(&nbsp;"HelloKata", 1&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>"H e l l o K a t a"</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>function splitInParts&nbsp;(&nbsp;"HelloKata", 9&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>"HelloKata"</em></strong></p>
+
 </div>
