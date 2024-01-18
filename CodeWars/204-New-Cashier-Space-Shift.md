@@ -35,4 +35,28 @@
 8. Coke
 </pre>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function getOrder&nbsp;(&nbsp;"milkshakepizzachickenfriescokeburgerpizzasandwichmilkshakepizza"&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>"Burger Fries Chicken Pizza Pizza Pizza Sandwich Milkshake Milkshake Coke"</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function getOrder&nbsp;(&nbsp;"pizzachickenfriesburgercokemilkshakefriessandwich"&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>"Burger Fries Fries Chicken Pizza Sandwich Milkshake Coke"</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>function getOrder&nbsp;(&nbsp;"friesburgerburgermilkshakecokeburgeronionringsburgeronionringssandwich"&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>"Burger Burger Burger Burger Fries Sandwich Onionrings Onionrings Milkshake Coke"</em></strong></p>
+
 </div>
