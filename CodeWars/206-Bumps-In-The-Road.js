@@ -9,3 +9,12 @@ function bump(x) {
 
   return bumpCount > 15 ? 'Car Dead' : 'Woohoo!';
 }
+
+/*
+REFACTORED SOLUTION -
+
+Instead of iterating thru the string, we can split each of the elements, 
+then filter out all of the "n" elements. Once a filter is applied, we 
+can then check the length for comparison and still employ the ternary 
+operator at the end.
+*/
