@@ -18,3 +18,9 @@ then filter out all of the "n" elements. Once a filter is applied, we
 can then check the length for comparison and still employ the ternary 
 operator at the end.
 */
+
+function bump(x) {
+  x = x.split('').filter((element) => element === 'n').length;
+
+  return x <= 15 ? 'Woohoo!' : 'Car Dead';
+}
