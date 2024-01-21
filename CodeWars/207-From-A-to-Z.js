@@ -23,3 +23,16 @@ codes and examining the actual letter characters themselves, we don't have to wo
 about the casing, as lower case and upper case letters exist in different sets of 
 character codes.
 */
+
+function gimmeTheLetters(sp) {
+  sp = sp.split('-');
+  let output = '';
+  let start = sp[0].charCodeAt();
+  let end = sp[1].charCodeAt();
+
+  for (let i = start; i <= end; i++) {
+    output += String.fromCharCode(i);
+  }
+
+  return output;
+}
