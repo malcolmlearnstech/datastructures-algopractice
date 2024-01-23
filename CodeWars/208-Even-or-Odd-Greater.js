@@ -1,12 +1,14 @@
 function evenOrOdd(str) {
-  str = str.split('').map((element) => Number(element));
-
   let even = str
+    .split('')
+    .map((element) => Number(element))
     .filter((element) => element % 2 === 0)
-    .reduce((acc, currentVal) => acc + currentVal, 0);
+    .reduce((acc, currentVal) => acc + currentVal);
   let odd = str
+    .split('')
+    .map((element) => Number(element))
     .filter((element) => element % 2 !== 0)
-    .reduce((acc, currentVal) => acc + currentVal, 0);
+    .reduce((acc, currentVal) => acc + currentVal);
 
   return even > odd
     ? 'Even is greater than Odd'
@@ -14,3 +16,8 @@ function evenOrOdd(str) {
     ? 'Odd is greater than Even'
     : 'Even and Odd are the same';
 }
+
+/*
+REFACTORED SOLUTION -
+
+*/
