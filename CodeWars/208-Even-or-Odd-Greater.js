@@ -20,4 +20,8 @@ function evenOrOdd(str) {
 /*
 REFACTORED SOLUTION -
 
+As we are performing the split() and map() methods the exact same way in our initializing 
+of "even" and "odd"; it makes more sense to apply those changes BEFORE we apply the 
+conditions of each filter. This will shorten the code for both initialization and make for 
+better readability.
 */
