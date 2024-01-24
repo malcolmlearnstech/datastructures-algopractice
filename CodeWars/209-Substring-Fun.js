@@ -18,3 +18,9 @@ will inherently build out an array. Once map() is used, we employ the join()
 method. This can all be done within a ternary operator, with the determing 
 condition staying the same as the if conditional from our original solution code.
 */
+
+function nthChar(words) {
+  return words.length < 1
+    ? ''
+    : words.map((element, idx) => element[idx]).join('');
+}
