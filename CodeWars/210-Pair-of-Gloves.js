@@ -28,3 +28,16 @@ context of the reduce method, we place the logic for determining amount of pairs
 ensure that we begin with 0 and the "currentValue" logic will begin with our 
 first element, continuing to add from there.
 */
+
+function numberOfPairs(gloves) {
+  let inventory = {};
+
+  gloves.map((element) => {
+    !inventory[element] ? (inventory[element] = 1) : inventory[element]++;
+  });
+
+  return Object.values(inventory).reduce(
+    (acc, currentVal) => acc + Math.floor(currentVal / 2),
+    0
+  );
+}
