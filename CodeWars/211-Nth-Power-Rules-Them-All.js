@@ -1,0 +1,1 @@
+function modifiedSum(a, n) {}
