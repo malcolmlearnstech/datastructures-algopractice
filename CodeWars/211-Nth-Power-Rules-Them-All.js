@@ -9,3 +9,9 @@ function modifiedSum(a, n) {
 
   return exponentSum - regularSum;
 }
+
+/*
+REFACTORED SOLUTION -
+
+Instead of using the map() method to iterate through, within the "exponentSum" & "regularSum" variables, we can apply the reduce() method and lastly caluculate the difference.
+*/
