@@ -26,7 +26,7 @@ function modifiedSum(a, n) {
 }
 
 /*
-REFACTORED SOLUTION -
+SECOND REFACTORED SOLUTION -
 
 Alternative to implementing the reduce() method twice, and storing inside of variables, we can make use of the reduce() method once. We can apply the 
 logic used in the "regularSum" variable, the main would be within the logic 
