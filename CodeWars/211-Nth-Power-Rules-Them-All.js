@@ -34,3 +34,7 @@ for "current". While adding the current element to the third power, we can simul
 in that way allows for us do both required additions and subtractions in 
 one method.
 */
+
+function modifiedSum(a, n) {
+  return a.reduce((acc, current) => acc + Math.pow(current, n) - current, 0);
+}
