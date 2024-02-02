@@ -1,0 +1,1 @@
+function squares(x, n) {}
