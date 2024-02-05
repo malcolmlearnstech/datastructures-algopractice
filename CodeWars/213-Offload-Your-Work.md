@@ -10,7 +10,7 @@
 
 <h3>To make this process easier you need to write a method called workNeeded to figure out how much time you need to contribute to a project.</h3>
 
-<h3>Giving the amount of time in minutes needed to complete the project and an array of pair values representing other freelancers' time in [Hours, Minutes] format ie. [[2, 33], [3, 44]] calculate how much time you will need to contribute to the project (if at all) and return a string depending on the case.</h3>
+<h3>Giving the amount of time in <em>minutes</em> needed to complete the project and an array of pair values representing other freelancers' time in <em>[Hours, Minutes]</em> format ie. <em>[[2, 33], [3, 44]]</em> calculate how much time you will need to contribute to the project (if at all) and return a string depending on the case.</h3>
 
 <h4>If we need to contribute time to the project then return <em>"I need to work x hour(s) and y minute(s)"</em></h4>
 
