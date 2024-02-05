@@ -17,3 +17,15 @@ REFACTORED SOLUTION -
 
 We can use a ternary operator instead of the if...else logic. Additionaly, rather than creating new variables ("hours" and "minutes"), we can employ the logic for them within the second result of our ternary operator.
 */
+
+function workNeeded(projectMinutes, freelancers) {
+  freelancers.map((element) => {
+    projectMinutes -= element[0] * 60 + element[1];
+  });
+
+  return projectMinutes < 1
+    ? 'Easy Money!'
+    : `I need to work ${Math.floor(projectMinutes / 60)} hour(s) and ${
+        projectMinutes % 60
+      } minute(s)`;
+}
