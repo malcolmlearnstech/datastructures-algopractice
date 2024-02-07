@@ -27,4 +27,28 @@ There are two groups of hostile letters. The tension between left side letters a
 
 <h3>The other letters don't have power and are only victims.</h3>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function alphabetWar&nbsp;(&nbsp;"z"&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>"Right side wins!"</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function alphabetWar&nbsp;(&nbsp;"zdqmwpbs"&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>"Let's fight again!"</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>function alphabetWar&nbsp;(&nbsp;"wwwwwwz"&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>"Left side wins!"</em></strong></p>
+
 </div>
