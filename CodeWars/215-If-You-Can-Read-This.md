@@ -17,4 +17,28 @@
 <h4>•&nbsp;Every word and punctuation mark should be seperated by a space ' '.</h4>
 <h4>•&nbsp;There should be no trailing whitespace</h4>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function toNato&nbsp;(&nbsp;"If you can read"&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>"India Foxtrot Yankee Oscar Uniform Charlie Alfa November Romeo Echo Alfa Delta"</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function toNato&nbsp;(&nbsp;"Did not see that coming"&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>"Delta India Delta November Oscar Tango Sierra Echo Echo Tango Hotel Alfa Tango Charlie Oscar Mike India November Golf"</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>function toNato&nbsp;(&nbsp;"go for it!"&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>"Golf Oscar Foxtrot Oscar Romeo India Tango !"</em></strong></p>
+
 </div>
