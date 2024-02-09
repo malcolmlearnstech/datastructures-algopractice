@@ -23,3 +23,13 @@ logic within the for-loop, we can emply the replace() method; removing all 0's a
 binary only uses 1s and 0s. Then we simply use ".length" to check the number of 1s 
 and add that count to our "oneCounter" variable.
 */
+
+function rangeBitCount(a, b) {
+  let oneCounter = 0;
+
+  for (let i = a; i <= b; i++) {
+    oneCounter += i.toString(2).replace(/0/g, '').length;
+  }
+
+  return oneCounter;
+}
