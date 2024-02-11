@@ -1,0 +1,1 @@
+const sumSquareEvenRootOdd = (ns) => {};
