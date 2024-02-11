@@ -36,3 +36,12 @@ use reduce() from there to figure out the full sum. We can still use the unary o
 as well, it just gets moved to the very beginning of the return since everything is 
 appended.
 */
+
+function sumSquareEvenRootOdd(ns) {
+  return +ns
+    .map((num) => {
+      return num % 2 === 0 ? Math.pow(num, 2) : Math.sqrt(num);
+    })
+    .reduce((acc, currentVal) => acc + currentVal)
+    .toFixed(2);
+}
