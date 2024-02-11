@@ -18,3 +18,11 @@ which will perform identically to the logic of the if-else setup. Additionally a
 our final return, we can employ the Unary Operator("+"), to convert the result our 
 reduce() and appeneded toFixed() back into a number from a string.
 */
+
+function sumSquareEvenRootOdd(ns) {
+  let newList = ns.map((element) => {
+    return element % 2 === 0 ? Math.pow(element, 2) : Math.sqrt(element);
+  });
+
+  return +newList.reduce((acc, currentVal) => acc + currentVal).toFixed(2);
+}
