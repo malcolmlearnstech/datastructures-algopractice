@@ -1,0 +1,1 @@
+const orderedCount = function (text) {};
