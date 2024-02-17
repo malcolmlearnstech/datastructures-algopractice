@@ -19,4 +19,28 @@
 
 <h4>The total score should be followed by a colon <em>:</em> and by one of the following quotes: if Alice's band wins: <em>Alice made "Kurt" proud!</em> if Bob's band wins: <em>Bob made "Jeff" proud!</em> if they end up with a draw: <em>that looks like a "draw"! Rock on!</em></h4>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function solve&nbsp;(&nbsp;[47, 7, 2] , [47, 7, 2]&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>'0, 0: that looks like a "draw"! Rock on!'</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function solve&nbsp;(&nbsp;[47, 67, 22] , [26, 47, 12]&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>'3, 0: Alice made "Kurt" proud!'</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>function solve&nbsp;(&nbsp;[25, 50, 22] , [34, 49, 50]&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>'1, 2: Bob made "Jeff" proud!'</em></strong></p>
+
 </div>
