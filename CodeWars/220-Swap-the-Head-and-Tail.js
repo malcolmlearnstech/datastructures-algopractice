@@ -18,3 +18,17 @@ function swapHeadAndTail(arr) {
 
   return swappedArray;
 }
+
+/*
+REFACTORED SOLUTION -
+
+By making use of the spread operator, we can eliminate the need for the 
+"swappedArray" variable. This also allows us to remove all three 
+instances of mapping before our final return (tailSplice, arr, & 
+headSplice). With spread operator, we can electively return a spread of 
+"tailSplice", "arr", & "headSplice" depending on whether or not the input 
+"arr" is split evenly. We can also make use of a ternary operator 
+depending on that result of arr's length after the split. In either case, 
+our end result will be an array with a spread of each variable's elements 
+enclosed.
+*/
