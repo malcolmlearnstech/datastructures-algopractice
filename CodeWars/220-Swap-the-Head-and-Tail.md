@@ -3,3 +3,13 @@
 # Swap The Head and The Tail
 
 </div>
+
+<div align = "center">
+
+<h3>You need to swap the head and the tail of the specified array:</h3>
+
+<h3>The head (the first half) of array moves to the end, the tail (the second half) moves to the start. The middle element (if it exists) leaves on the same position.</h3>
+
+<h3>Return new array.</h3>
+
+</div>
