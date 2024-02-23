@@ -14,4 +14,28 @@
 
 <h3>'C...m' returns 'Caught!' <-- as there are three characters between the two, the cat can jump.</h3>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function catMouse&nbsp;(&nbsp;'C....m'&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>"Escaped!"</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function catMouse&nbsp;(&nbsp;'C..m'&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>"Caught!"</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>function catMouse&nbsp;(&nbsp;'C.....m'&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>"Escaped!"</em></strong></p>
+
 </div>
