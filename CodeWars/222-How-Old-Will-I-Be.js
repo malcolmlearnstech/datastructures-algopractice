@@ -9,3 +9,10 @@ function calculateAge(birthYear, randomYear) {
     } else return `You will be born in ${birthYear - randomYear} years.`;
   } else return 'You were born this very year!';
 }
+
+/*
+REFACTORED SOLUTION -
+
+For better readability and ease of maintanance, we can edit the nested conditionals 
+to be ternary operators instead, shortening the code.
+*/
