@@ -18,4 +18,28 @@
 
 <h3>•&nbsp;&nbsp;Otherwise returns "Wrong, please enter a number between 1 and 7"</h3>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function whatday&nbsp;(&nbsp;1&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>"Sunday"</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function whatday&nbsp;(&nbsp;3&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>"Tuesday"</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>function whatday&nbsp;(&nbsp;20&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>"Wrong, please enter a number between 1 and 7"</em></strong></p>
+
 </div>
