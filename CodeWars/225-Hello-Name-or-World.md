@@ -10,4 +10,28 @@
 
 <h3>Assuming that <em>name</em> is a <strong>String</strong> and it checks for user typos to return a name with a first capital letter (Xxxx).</h3>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function findNeedle&nbsp;(&nbsp;"john"&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>"Hello, John!"</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function findNeedle&nbsp;(&nbsp;"aliCE"&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>"Hello, Alice!"</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre><em>With no 'name' given</em></pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>"Hello, World!"</em></strong></p>
+
 </div>
