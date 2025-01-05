@@ -12,4 +12,28 @@
 
 <h3><em>Note: arr1 and arr2 may be sorted in different orders. Also arr1 and arr2 may have same integers. Remove duplicated in the returned result.</em></h3>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function mergeArrays&nbsp;(&nbsp;[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>[&nbsp;1, 2, 3, 4, 5, 6, 7, 8, 9, 10&nbsp;]</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function mergeArrays&nbsp;(&nbsp;[1, 3, 5, 7, 9], [10, 8, 6, 4, 2]&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>[&nbsp;1, 2, 3, 4, 5, 6, 7, 8, 9, 10&nbsp;]</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function mergeArrays&nbsp;(&nbsp;[1, 3, 5, 7, 9, 11, 12], [1, 2, 3, 4, 5, 10, 12]&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>[&nbsp;1, 2, 3, 4, 5, 7, 9, 10, 11, 12&nbsp;]</em></strong></p>
+
 </div>
