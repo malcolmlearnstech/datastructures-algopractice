@@ -8,3 +8,7 @@ function whoIsPaying(name) {
 
 Let's take this "if-else statement" and turn it into a one 
 liner using a ternary operator*/
+
+function whoIsPaying(name) {
+  return name.length > 2 ? [name, name[0] + name[1]] : [name];
+}
