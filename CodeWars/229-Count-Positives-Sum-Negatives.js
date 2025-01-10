@@ -35,3 +35,15 @@ function countPositivesSumNegatives(input) {
     return [positives, negatives];
   }
 }
+
+/*
+SECOND REFACTORED SOLUTION -
+
+If you wanted to set this up for a shorter setup, you can make 
+use of the fact that all of these methods occur within the if/else 
+context. With that established context, we can set up a ternary; 
+setting the outliers as the conditional. To account for the amount 
+of positives, we can employ a filter with the condition for 
+positive and for the negative, we also use filter, then apply 
+reduce to count out the sum.
+*/
