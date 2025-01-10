@@ -47,3 +47,14 @@ of positives, we can employ a filter with the condition for
 positive and for the negative, we also use filter, then apply 
 reduce to count out the sum.
 */
+
+function countPositivesSumNegatives(input) {
+  return input === null || !input.length
+    ? []
+    : [
+        input.filter((element) => Math.sign(element) === 1).length,
+        input
+          .filter((element) => Math.sign(element) === -1)
+          .reduce((accumulator, currentValue) => accumulator + currentValue, 0),
+      ];
+}
