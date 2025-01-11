@@ -9,3 +9,9 @@ function nbYear(p0, percent, aug, p) {
 
   return yearCount;
 }
+
+/*
+REFACTORED SOLUTION -
+
+Try out implementing pretty much the same logic but using a for-loop instead.
+*/
