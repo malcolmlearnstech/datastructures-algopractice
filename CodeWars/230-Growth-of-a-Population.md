@@ -20,4 +20,30 @@
 
 <h3>•&nbsp;&nbsp;<em>Don't forget to convert the percent parameter as a percentage in the body of your function: if the parameter percent is 2 you have to convert it to 0.02.</em></h3>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function nbYear&nbsp;(&nbsp;1500, 5, 100, 5000&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>15</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function nbYear&nbsp;(&nbsp;1500000, 2.5, 10000, 2000000&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>10</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>function nbYear&nbsp;(&nbsp;1500000, 2.5, 1000, 2000000&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>94</em></strong></p>
+
+<br>
+
 </div>
