@@ -11,3 +11,14 @@ function lovefunc(flower1, flower2) {
     return false;
   }
 }
+
+/* 
+REFACTOR SOLUTION - 
+
+Using the logic from our initial solution, we know that we are 
+simply looking for any instances in which the flowers do not 
+match. Going by this we can use a ternary to simply ask if the 
+flowers are unequal, returning "true" and for any instances 
+where they are not, return false.
+
+*/
