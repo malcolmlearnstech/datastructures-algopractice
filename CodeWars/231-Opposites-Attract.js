@@ -22,3 +22,7 @@ flowers are unequal, returning "true" and for any instances
 where they are not, return false.
 
 */
+
+function lovefunc(flower1, flower2) {
+  return flower1 % 2 !== flower2 % 2 ? true : false;
+}
