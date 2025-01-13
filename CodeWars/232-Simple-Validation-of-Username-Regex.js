@@ -9,3 +9,12 @@ function validateUsr(username) {
     ? false
     : true;
 }
+
+/*
+REFACTORED SOLUTION -
+
+To keep the ternary operation condition from being so long, and 
+decreasing the ease of readability, we can check for the length 
+of the username as its own separate if conditional. THEN we run 
+the ternary operator looking for outlier characters.
+*/
