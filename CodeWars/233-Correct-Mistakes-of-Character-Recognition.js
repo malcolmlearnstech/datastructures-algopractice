@@ -1,0 +1,1 @@
+function correct(string) {}
