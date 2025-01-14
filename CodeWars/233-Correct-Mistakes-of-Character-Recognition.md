@@ -20,4 +20,28 @@
 
 <h3>The test cases contain numbers only by mistake.</h3>
 
+<br>
+
+<h3>Example 1:</h3>
+
+<pre>function correct&nbsp;(&nbsp;'L0ND0N'&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>'LONDON'</em></strong></p>
+
+<br>
+
+<h3>Example 2:</h3>
+
+<pre>function correct&nbsp;(&nbsp;'51NGAP0RE'&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>'SINGAPORE'</em></strong></p>
+
+<br>
+
+<h3>Example 3:</h3>
+
+<pre>function correct&nbsp;(&nbsp;'BUDAPE5T'&nbsp;)</pre>
+
+<p>The function should return the following result: &nbsp;<strong><em>'BUDAPEST'</em></strong></p>
+
 </div>
